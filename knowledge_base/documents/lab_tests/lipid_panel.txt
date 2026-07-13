@@ -1,0 +1,84 @@
+LIPID PANEL — Reference Guide
+
+OVERVIEW:
+A lipid panel (also called a lipid profile or cholesterol test) measures the levels of fats and fatty substances in your blood. It is a key test for assessing cardiovascular risk and is used to monitor heart health.
+
+COMPONENTS AND NORMAL RANGES:
+
+1. Total Cholesterol:
+   - Desirable: Less than 200 mg/dL
+   - Borderline High: 200-239 mg/dL
+   - High: 240 mg/dL and above
+   - Total cholesterol is the sum of all cholesterol types in your blood
+   - Higher levels increase risk of heart disease and stroke
+
+2. LDL Cholesterol (Low-Density Lipoprotein) — "Bad Cholesterol":
+   - Optimal: Less than 100 mg/dL
+   - Near Optimal: 100-129 mg/dL
+   - Borderline High: 130-159 mg/dL
+   - High: 160-189 mg/dL
+   - Very High: 190 mg/dL and above
+   - LDL carries cholesterol TO arteries, causing plaque buildup
+   - Main target of cholesterol-lowering therapy
+   - High LDL is the primary risk factor for atherosclerosis
+
+3. HDL Cholesterol (High-Density Lipoprotein) — "Good Cholesterol":
+   - Low (risk factor): Less than 40 mg/dL (men), Less than 50 mg/dL (women)
+   - Desirable: 40-59 mg/dL
+   - Optimal (protective): 60 mg/dL and above
+   - HDL carries cholesterol AWAY from arteries to the liver for removal
+   - Higher HDL is protective against heart disease
+   - Exercise, healthy fats, and moderate alcohol can raise HDL
+
+4. Triglycerides:
+   - Normal: Less than 150 mg/dL
+   - Borderline High: 150-199 mg/dL
+   - High: 200-499 mg/dL
+   - Very High: 500 mg/dL and above
+   - Triglycerides store unused calories as fat
+   - High levels associated with heart disease, diabetes, pancreatitis
+   - Affected by diet, alcohol, obesity, and medications
+
+5. VLDL Cholesterol (Very Low-Density Lipoprotein):
+   - Normal: 2-30 mg/dL
+   - Calculated as triglycerides divided by 5
+   - Carries triglycerides through the bloodstream
+
+6. Non-HDL Cholesterol:
+   - Calculated as Total Cholesterol minus HDL
+   - Desirable: Less than 130 mg/dL
+   - Includes all "bad" types of cholesterol
+   - Some doctors consider this a better predictor than LDL alone
+
+7. Total Cholesterol/HDL Ratio:
+   - Desirable: Less than 5:1
+   - Optimal: 3.5:1
+   - Higher ratio indicates greater cardiovascular risk
+
+RISK FACTORS THAT AFFECT LIPID LEVELS:
+- Diet high in saturated and trans fats
+- Obesity and physical inactivity
+- Smoking
+- Diabetes
+- Hypothyroidism
+- Family history (familial hypercholesterolemia)
+- Age (cholesterol tends to rise with age)
+- Certain medications (steroids, beta-blockers, diuretics)
+
+WHEN IS A LIPID PANEL ORDERED:
+- Routine screening: every 4-6 years for healthy adults
+- Annually for patients with cardiovascular risk factors
+- Monitoring cholesterol-lowering medications (statins)
+- Diabetes management
+- After a heart attack or stroke
+
+PREPARATION:
+- Typically requires 9-12 hours of fasting before the test
+- Only water is allowed during the fasting period
+- Some newer guidelines allow non-fasting lipid panels
+
+IMPORTANT NOTES:
+- A single high reading doesn't mean you have heart disease
+- Lifestyle changes (diet, exercise) are the first line of treatment
+- Medications (statins) may be recommended based on overall risk assessment
+- Results should be interpreted in the context of other risk factors

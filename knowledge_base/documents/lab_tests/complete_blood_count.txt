@@ -1,0 +1,79 @@
+COMPLETE BLOOD COUNT (CBC) — Reference Guide
+
+OVERVIEW:
+A Complete Blood Count (CBC) is one of the most commonly ordered blood tests. It measures several components and features of your blood, including red blood cells, white blood cells, and platelets. A CBC can help detect a variety of conditions, from anemia and infection to blood cancers.
+
+COMPONENTS AND NORMAL RANGES:
+
+1. Red Blood Cell Count (RBC):
+   - Normal: Men: 4.5-5.5 million cells/mcL, Women: 4.0-5.0 million cells/mcL
+   - High RBC: May indicate dehydration, lung disease, polycythemia vera, kidney tumors
+   - Low RBC: May indicate anemia, bone marrow failure, malnutrition, leukemia, chronic kidney disease
+
+2. Hemoglobin (Hb/Hgb):
+   - Normal: Men: 13.5-17.5 g/dL, Women: 12.0-16.0 g/dL
+   - High: Dehydration, lung disease, polycythemia
+   - Low: Anemia (iron deficiency, vitamin B12 deficiency, folate deficiency), blood loss, chronic disease
+
+3. Hematocrit (Hct):
+   - Normal: Men: 38.3-48.6%, Women: 35.5-44.9%
+   - Represents the percentage of blood volume occupied by red blood cells
+   - High: Dehydration, polycythemia
+   - Low: Anemia, overhydration, nutritional deficiencies
+
+4. Mean Corpuscular Volume (MCV):
+   - Normal: 80-100 fL
+   - High (Macrocytic): Vitamin B12 or folate deficiency, liver disease, hypothyroidism
+   - Low (Microcytic): Iron deficiency anemia, thalassemia, chronic disease
+
+5. Mean Corpuscular Hemoglobin (MCH):
+   - Normal: 27-33 pg
+   - Indicates the average amount of hemoglobin per red blood cell
+   - High: Macrocytic anemia
+   - Low: Iron deficiency, microcytic anemia
+
+6. Mean Corpuscular Hemoglobin Concentration (MCHC):
+   - Normal: 32-36 g/dL
+   - High: Spherocytosis, severe dehydration
+   - Low: Iron deficiency anemia, thalassemia
+
+7. Red Cell Distribution Width (RDW):
+   - Normal: 11.5-14.5%
+   - High: Mixed anemia, iron deficiency, early nutritional deficiency
+   - Normal with low MCV: Thalassemia trait
+
+8. White Blood Cell Count (WBC):
+   - Normal: 4,500-11,000 cells/mcL
+   - High (Leukocytosis): Infection, inflammation, stress, leukemia, allergic reactions
+   - Low (Leukopenia): Bone marrow disorders, autoimmune diseases, severe infections, chemotherapy
+
+9. WBC Differential:
+   - Neutrophils: 40-70% — fight bacterial infections
+   - Lymphocytes: 20-40% — fight viral infections, produce antibodies
+   - Monocytes: 2-8% — clean up dead cells
+   - Eosinophils: 1-4% — fight parasites, involved in allergies
+   - Basophils: 0.5-1% — involved in allergic reactions
+
+10. Platelet Count:
+    - Normal: 150,000-400,000 cells/mcL
+    - High (Thrombocytosis): Inflammation, infection, iron deficiency, cancer
+    - Low (Thrombocytopenia): Viral infections, medications, autoimmune disorders, liver disease
+
+11. Mean Platelet Volume (MPV):
+    - Normal: 7.5-12.0 fL
+    - High: Active platelet production, often seen with platelet destruction
+    - Low: Bone marrow suppression
+
+WHEN IS A CBC ORDERED:
+- Routine health checkup
+- Suspected infection or inflammation
+- Unexplained fatigue, weakness, or bruising
+- Monitoring existing blood conditions
+- Before surgery
+- Monitoring medication side effects
+
+IMPORTANT NOTES:
+- Results can vary based on age, sex, altitude, and hydration status
+- A single abnormal result doesn't necessarily indicate disease
+- Trends over time are often more meaningful than a single reading
+- Always discuss results with your healthcare provider

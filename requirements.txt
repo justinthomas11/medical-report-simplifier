@@ -1,0 +1,37 @@
+# === Core Framework ===
+streamlit>=1.30.0
+
+# === PDF Parsing ===
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# === OCR ===
+easyocr>=1.7.0
+Pillow>=10.0.0
+
+# === NLP & Preprocessing ===
+spacy>=3.7.0
+nltk>=3.8.0
+
+# === Medical NER ===
+scispacy>=0.5.3
+# Model: pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bc5cdr_md-0.5.3.tar.gz
+
+# === Embeddings & Vector Search ===
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+# === LLM API ===
+google-generativeai>=0.4.0
+
+# === Evaluation ===
+bert-score>=0.3.13
+
+# === Output Generation ===
+fpdf2>=2.7.0
+
+# === Utilities ===
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0

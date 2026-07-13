@@ -1,0 +1,83 @@
+LIVER FUNCTION TESTS (LFTs) — Reference Guide
+
+OVERVIEW:
+Liver function tests (LFTs), also known as a hepatic panel, are a group of blood tests that measure enzymes, proteins, and other substances produced by the liver. These tests help assess how well the liver is functioning and can detect liver damage or disease.
+
+COMPONENTS AND NORMAL RANGES:
+
+1. Alanine Aminotransferase (ALT / SGPT):
+   - Normal: 7-56 U/L
+   - Primary liver enzyme — most specific for liver damage
+   - High: Liver inflammation (hepatitis), fatty liver disease, medication toxicity
+   - Very High (>1000 U/L): Acute hepatitis, drug toxicity, ischemic liver injury
+   - Mildly elevated: Fatty liver, alcohol use, medications, obesity
+
+2. Aspartate Aminotransferase (AST / SGOT):
+   - Normal: 10-40 U/L
+   - Found in liver AND heart, muscle, kidney tissue
+   - High: Liver damage, heart attack, muscle injury, hemolysis
+   - AST/ALT ratio >2: Suggestive of alcoholic liver disease
+   - AST/ALT ratio <1: Suggestive of non-alcoholic fatty liver disease
+
+3. Alkaline Phosphatase (ALP):
+   - Normal: 44-147 U/L
+   - Found in liver, bone, kidney, intestine
+   - High: Bile duct obstruction, bone disease, liver disease, pregnancy
+   - Very High: Bile duct blockage, Paget disease of bone
+   - Can be normally elevated in growing children and during pregnancy
+
+4. Gamma-Glutamyl Transferase (GGT):
+   - Normal: 9-48 U/L
+   - Sensitive marker for bile duct problems and alcohol use
+   - High: Alcohol use, bile duct disease, liver disease, pancreatitis
+   - Used to confirm that elevated ALP is from liver (not bone)
+
+5. Total Bilirubin:
+   - Normal: 0.1-1.2 mg/dL
+   - Produced from the breakdown of red blood cells
+   - High: Liver disease, bile duct obstruction, hemolytic anemia
+   - Causes jaundice (yellowing of skin/eyes) when significantly elevated
+   - Direct (conjugated) bilirubin: processed by liver
+   - Indirect (unconjugated) bilirubin: not yet processed
+
+6. Albumin:
+   - Normal: 3.5-5.0 g/dL
+   - Major protein made by the liver
+   - Low: Liver disease, malnutrition, kidney disease, inflammation
+   - Chronic liver disease typically causes low albumin
+   - Important for drug binding and fluid balance
+
+7. Total Protein:
+   - Normal: 6.0-8.3 g/dL
+   - Includes albumin and globulins
+   - Low: Liver disease, malnutrition, malabsorption
+   - High: Chronic inflammation, infections, multiple myeloma
+
+8. Prothrombin Time (PT) / INR:
+   - Normal PT: 11-13.5 seconds
+   - Normal INR: 0.8-1.1 (not on blood thinners)
+   - Measures how quickly blood clots
+   - Prolonged: Liver disease (can't make clotting factors), warfarin use, vitamin K deficiency
+
+PATTERNS OF LIVER DISEASE:
+- Hepatocellular damage: ALT and AST elevated most
+- Cholestatic (bile duct): ALP and GGT elevated most
+- Chronic liver disease: Low albumin, prolonged PT, elevated bilirubin
+- Acute hepatitis: Very high ALT/AST (often >10x normal)
+
+COMMON CAUSES OF ABNORMAL LFTs:
+- Fatty liver disease (most common cause of mildly elevated ALT)
+- Alcohol use
+- Viral hepatitis (A, B, C)
+- Medications (acetaminophen, statins, antibiotics)
+- Autoimmune hepatitis
+- Cirrhosis
+- Gallstones (bile duct obstruction)
+- Heart failure (congestive hepatopathy)
+
+IMPORTANT NOTES:
+- Mildly elevated liver enzymes are very common and often benign
+- Exercise can temporarily raise AST and ALT
+- Results should be interpreted together, not in isolation
+- Follow-up testing may be needed to determine the cause
+- Imaging (ultrasound) is often ordered alongside abnormal LFTs
