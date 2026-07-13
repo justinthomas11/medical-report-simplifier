@@ -71,7 +71,7 @@ cd MedicalReportSimplifier
 pip install -r requirements.txt
 
 # Download SciSpacy model (Required for Medical NER)
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bc5cdr_md-0.5.3.tar.gz
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
 ```
 
 ### 3. API Key Setup

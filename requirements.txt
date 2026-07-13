@@ -14,8 +14,8 @@ spacy>=3.7.0
 nltk>=3.8.0
 
 # === Medical NER ===
-scispacy>=0.5.3
-# Model: pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bc5cdr_md-0.5.3.tar.gz
+scispacy>=0.5.5
+# Model: pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
 
 # === Embeddings & Vector Search ===
 scikit-learn>=1.3.0
