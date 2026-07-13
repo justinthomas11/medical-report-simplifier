@@ -4,7 +4,7 @@ A full-stack NLP system designed to translate complex medical reports (PDF/Image
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 1. **Robust Input Handling & Validation**: File type, size, and page count validation.
 2. **Hybrid Text Extraction**: PyPDF2/pdfplumber for text PDFs, with automatic fallback to EasyOCR for scanned reports or image uploads.
@@ -16,7 +16,7 @@ A full-stack NLP system designed to translate complex medical reports (PDF/Image
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 MedicalReportSimplifier/
@@ -54,7 +54,7 @@ MedicalReportSimplifier/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 - Python 3.10 or 3.11 installed.
