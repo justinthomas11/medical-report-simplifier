@@ -107,7 +107,13 @@ def generate_pdf_report(simplified_markdown: str) -> bytes:
                 pdf.set_text_color(45, 55, 72)
             else:
                 # Regular text
-                pdf.multi_cell(0, 5, line)
+                # Handle horizontal rules/separator lines elegantly
+                if len(line) >= 3 and set(line) <= {'-', '_', '='}:
+                    pdf.ln(2)
+                    pdf.line(10, pdf.get_y(), 200, pdf.get_y())
+                    pdf.ln(2)
+                else:
+                    pdf.multi_cell(0, 5, line, wrapmode="CHAR")
                 
         # Return PDF as bytes
         pdf_output = pdf.output()
