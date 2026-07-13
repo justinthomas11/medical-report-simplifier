@@ -1,0 +1,17 @@
+PATIENT MEDICAL REPORT
+
+PATIENT: Jane Smith
+AGE: 58
+SEX: Female
+DATE: 2026-07-12
+
+TEST NAME                    RESULT      UNIT      REFERENCE RANGE   FLAG
+-------------------------------------------------------------------------
+LIPID PANEL (FASTING)
+Total Cholesterol            265         mg/dL     <200              H
+HDL Cholesterol              38          mg/dL     >50               L
+LDL Cholesterol (Calc)       182         mg/dL     <100              H
+Triglycerides                225         mg/dL     <150              H
+
+IMPRESSION:
+Significant hyperlipidemia. Patient has high total cholesterol, elevated LDL ("bad" cholesterol), and high triglycerides, combined with low protective HDL. Strong recommendation for lifestyle modification and consideration of statin therapy.

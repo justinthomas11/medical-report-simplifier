@@ -1,0 +1,21 @@
+PATIENT MEDICAL REPORT
+
+PATIENT: John Doe
+AGE: 45
+SEX: Male
+DATE: 2026-07-10
+
+TEST NAME                    RESULT      UNIT      REFERENCE RANGE   FLAG
+-------------------------------------------------------------------------
+COMPLETE BLOOD COUNT (CBC)
+White Blood Cell (WBC)       12.4        x10^3/uL  4.5-11.0          H
+Red Blood Cell (RBC)         3.8         x10^6/uL  4.5-5.5           L
+Hemoglobin (Hgb)             11.2        g/dL      13.5-17.5         L
+Hematocrit (Hct)             33.5        %         38.3-48.6         L
+Mean Corpuscular Vol (MCV)   74.0        fL        80.0-100.0        L
+Mean Corpuscular Hgb (MCH)   23.2        pg        27.0-33.0         L
+Platelet Count               420         x10^3/uL  150-400           H
+
+IMPRESSION:
+1. Mild microcytic anemia, likely secondary to iron deficiency. Correlate with iron profile studies.
+2. Mild leukocytosis and thrombocytosis, consistent with acute reactive/inflammatory process or iron deficiency response.
