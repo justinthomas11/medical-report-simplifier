@@ -1,0 +1,71 @@
+CHRONIC KIDNEY DISEASE (CKD) — Reference Guide
+
+OVERVIEW:
+Chronic kidney disease is a long-term condition where the kidneys gradually lose their ability to filter waste and excess fluids from the blood. It affects approximately 15% of adults and is often associated with diabetes and hypertension. Early detection and management can slow progression.
+
+STAGES OF CKD (based on eGFR):
+- Stage 1 (eGFR 90+): Kidney damage with normal or high GFR. Usually no symptoms. Treat underlying cause.
+- Stage 2 (eGFR 60-89): Mild decrease. Usually no symptoms. Monitor and manage risk factors.
+- Stage 3a (eGFR 45-59): Mild-moderate decrease. May have mild symptoms. Active management needed.
+- Stage 3b (eGFR 30-44): Moderate-severe decrease. Complications begin. Specialist referral recommended.
+- Stage 4 (eGFR 15-29): Severe decrease. Prepare for renal replacement therapy. Nephrology management essential.
+- Stage 5 (eGFR <15): Kidney failure. Dialysis or transplant needed.
+
+KEY LAB VALUES TO MONITOR:
+- eGFR: Primary measure of kidney function
+- Creatinine: Rises as kidney function declines
+- BUN: Rises with decreased kidney function
+- Urine albumin-to-creatinine ratio (UACR): Detects early kidney damage
+- Potassium: May rise in advanced CKD
+- Phosphorus: May rise in advanced CKD
+- Calcium: May fall in advanced CKD
+- Hemoglobin: Anemia common in CKD
+- Bicarbonate: Metabolic acidosis in advanced CKD
+- Parathyroid hormone (PTH): Rises in advanced CKD
+
+RISK FACTORS:
+- Diabetes (leading cause — 40% of CKD cases)
+- Hypertension (second leading cause — 25% of CKD cases)
+- Heart disease
+- Family history of kidney disease
+- Age over 60
+- Obesity
+- Smoking
+- Ethnicity (higher risk in African Americans, Hispanics, Native Americans)
+
+SYMPTOMS (often absent in early stages):
+- Fatigue
+- Swelling in feet and ankles (edema)
+- Decreased urine output
+- Shortness of breath
+- Nausea and vomiting
+- Loss of appetite
+- Muscle cramps
+- Itchy skin
+- Sleep problems
+- Confusion (in advanced stages)
+
+COMPLICATIONS:
+- Cardiovascular disease (leading cause of death in CKD)
+- Anemia (kidneys produce less erythropoietin)
+- Bone disease (mineral and bone disorder)
+- Hyperkalemia (dangerous high potassium)
+- Metabolic acidosis
+- Fluid overload
+- Uremia (toxic waste buildup)
+
+MANAGEMENT:
+- Blood pressure control: Target <130/80 mmHg. ACE inhibitors or ARBs preferred.
+- Blood sugar control: HbA1c <7% if diabetic
+- Diet: Low sodium, controlled protein, limit potassium and phosphorus in advanced stages
+- Medications: Avoid nephrotoxic drugs (NSAIDs, certain antibiotics)
+- Newer therapies: SGLT2 inhibitors (shown to slow CKD progression)
+- Dialysis: Hemodialysis or peritoneal dialysis for Stage 5
+- Transplant: Best long-term option for eligible patients
+
+IMPORTANT NOTES:
+- CKD is often called a "silent disease" — symptoms appear late
+- Regular screening is crucial for high-risk individuals
+- eGFR decline of >5 mL/min/year is considered rapid progression
+- Early referral to nephrology improves outcomes
+- CKD significantly increases cardiovascular risk

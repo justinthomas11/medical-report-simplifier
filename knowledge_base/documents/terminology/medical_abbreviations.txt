@@ -1,0 +1,114 @@
+COMMON MEDICAL ABBREVIATIONS — Reference Guide
+
+GENERAL:
+- BP: Blood Pressure
+- HR: Heart Rate
+- RR: Respiratory Rate
+- BMI: Body Mass Index
+- Hx: History
+- Dx: Diagnosis
+- Tx: Treatment
+- Rx: Prescription
+- Sx: Symptoms
+- Fx: Fracture
+- SOB: Shortness of Breath
+- DOB: Date of Birth
+- PRN: As Needed
+- BID: Twice a Day
+- TID: Three Times a Day
+- QID: Four Times a Day
+- QD: Once Daily
+- PO: By Mouth (oral)
+- IV: Intravenous
+- IM: Intramuscular
+- SC/SQ: Subcutaneous
+- NPO: Nothing by Mouth
+- STAT: Immediately
+- R/O: Rule Out
+- H/O: History Of
+- F/U: Follow Up
+- WNL: Within Normal Limits
+- NAD: No Acute Distress
+
+LAB AND TEST ABBREVIATIONS:
+- CBC: Complete Blood Count
+- CMP: Comprehensive Metabolic Panel
+- BMP: Basic Metabolic Panel
+- LFT: Liver Function Tests
+- RFT: Renal Function Tests
+- FBS: Fasting Blood Sugar
+- RBS: Random Blood Sugar
+- PPBS: Post-Prandial Blood Sugar
+- HbA1c: Glycated Hemoglobin
+- TSH: Thyroid Stimulating Hormone
+- PT/INR: Prothrombin Time / International Normalized Ratio
+- ESR: Erythrocyte Sedimentation Rate
+- CRP: C-Reactive Protein
+- PSA: Prostate-Specific Antigen
+- BNP: Brain Natriuretic Peptide
+- ABG: Arterial Blood Gas
+- UA: Urinalysis
+- C&S: Culture and Sensitivity
+
+BLOOD COMPONENTS:
+- RBC: Red Blood Cells
+- WBC: White Blood Cells
+- Hb/Hgb: Hemoglobin
+- Hct: Hematocrit
+- MCV: Mean Corpuscular Volume
+- MCH: Mean Corpuscular Hemoglobin
+- MCHC: Mean Corpuscular Hemoglobin Concentration
+- PLT: Platelets
+- MPV: Mean Platelet Volume
+- RDW: Red Cell Distribution Width
+
+LIPID PANEL:
+- TC: Total Cholesterol
+- LDL: Low-Density Lipoprotein
+- HDL: High-Density Lipoprotein
+- TG: Triglycerides
+- VLDL: Very Low-Density Lipoprotein
+
+LIVER RELATED:
+- ALT/SGPT: Alanine Aminotransferase
+- AST/SGOT: Aspartate Aminotransferase
+- ALP: Alkaline Phosphatase
+- GGT: Gamma-Glutamyl Transferase
+- T.Bil: Total Bilirubin
+- D.Bil: Direct Bilirubin
+
+KIDNEY RELATED:
+- BUN: Blood Urea Nitrogen
+- Cr: Creatinine
+- eGFR: Estimated Glomerular Filtration Rate
+- UACR: Urine Albumin-to-Creatinine Ratio
+
+IMAGING:
+- X-ray: Radiograph
+- CT: Computed Tomography
+- MRI: Magnetic Resonance Imaging
+- US: Ultrasound
+- ECG/EKG: Electrocardiogram
+- Echo: Echocardiogram
+- PET: Positron Emission Tomography
+
+CARDIAC:
+- MI: Myocardial Infarction (Heart Attack)
+- CHF: Congestive Heart Failure
+- CAD: Coronary Artery Disease
+- AF/AFib: Atrial Fibrillation
+- CABG: Coronary Artery Bypass Graft
+- PCI: Percutaneous Coronary Intervention
+- LVEF: Left Ventricular Ejection Fraction
+
+OTHER COMMON:
+- DM: Diabetes Mellitus
+- HTN: Hypertension
+- COPD: Chronic Obstructive Pulmonary Disease
+- UTI: Urinary Tract Infection
+- DVT: Deep Vein Thrombosis
+- PE: Pulmonary Embolism
+- CKD: Chronic Kidney Disease
+- GERD: Gastroesophageal Reflux Disease
+- OA: Osteoarthritis
+- RA: Rheumatoid Arthritis

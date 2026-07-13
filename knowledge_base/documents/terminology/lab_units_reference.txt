@@ -1,0 +1,81 @@
+LABORATORY UNITS REFERENCE — Guide
+
+COMMON LAB UNITS AND WHAT THEY MEAN:
+
+1. mg/dL (milligrams per deciliter):
+   - Used for: glucose, cholesterol, creatinine, bilirubin, BUN, calcium, uric acid
+   - Measures: Weight of substance per volume of blood
+   - Conversion: 1 mg/dL = 0.01 g/L
+
+2. mmol/L (millimoles per liter):
+   - Used for: glucose (international), electrolytes (sodium, potassium, chloride)
+   - SI unit equivalent of mg/dL for many tests
+   - Glucose conversion: mg/dL ÷ 18 = mmol/L
+
+3. g/dL (grams per deciliter):
+   - Used for: hemoglobin, total protein, albumin
+   - Larger unit than mg/dL
+
+4. U/L or IU/L (units per liter):
+   - Used for: liver enzymes (ALT, AST, ALP, GGT), lipase, amylase
+   - Measures enzyme activity
+
+5. mEq/L (milliequivalents per liter):
+   - Used for: electrolytes (sodium, potassium, chloride, bicarbonate)
+   - Measures electrical charge of ions
+
+6. cells/mcL or cells/μL (cells per microliter):
+   - Used for: WBC count, RBC count, platelet count
+   - May also be expressed as x10^3/μL or x10^6/μL
+
+7. fL (femtoliters):
+   - Used for: MCV (mean corpuscular volume), MPV (mean platelet volume)
+   - Measures cell size (1 fL = 10^-15 liters)
+
+8. pg (picograms):
+   - Used for: MCH (mean corpuscular hemoglobin)
+   - Measures weight at cellular level
+
+9. % (percent):
+   - Used for: hematocrit, HbA1c, reticulocytes, differential WBC count
+   - Proportion of total
+
+10. mm/hr (millimeters per hour):
+    - Used for: ESR (erythrocyte sedimentation rate)
+    - Measures rate of red blood cell settling
+
+11. ng/mL (nanograms per milliliter):
+    - Used for: vitamin D, vitamin B12, ferritin, PSA, troponin
+    - Very small concentration unit
+
+12. mIU/L or μIU/mL (milli-international units per liter):
+    - Used for: TSH, insulin
+    - Measures hormone activity
+
+13. pg/mL (picograms per milliliter):
+    - Used for: Free T3, BNP, vitamin B12
+    - Extremely small concentration
+
+14. ng/dL (nanograms per deciliter):
+    - Used for: Free T4, testosterone
+    - Small hormone concentrations
+
+15. mmHg (millimeters of mercury):
+    - Used for: blood pressure, partial pressure of gases
+    - Systolic/diastolic (e.g., 120/80 mmHg)
+
+16. bpm (beats per minute):
+    - Used for: heart rate
+    - Normal resting: 60-100 bpm
+
+17. mL/min/1.73m2:
+    - Used for: eGFR (estimated glomerular filtration rate)
+    - Measures kidney filtration rate normalized to body surface area
+
+UNDERSTANDING "NORMAL RANGES":
+- Normal ranges vary by laboratory, age, sex, and ethnicity
+- Reference ranges are typically set to include 95% of healthy individuals
+- Values slightly outside the range are not always concerning
+- Trends over time are often more important than a single value
+- Always interpret results in clinical context
+- Lab reports typically flag values as "H" (high) or "L" (low)

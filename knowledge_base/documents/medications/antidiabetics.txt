@@ -1,0 +1,61 @@
+COMMON ANTIDIABETIC MEDICATIONS — Reference Guide
+
+OVERVIEW:
+Antidiabetic medications are used to manage blood sugar levels in people with diabetes. Type 1 diabetes always requires insulin. Type 2 diabetes management starts with lifestyle changes and metformin, with additional medications added as needed.
+
+ORAL MEDICATIONS:
+
+1. Metformin (Glucophage):
+   - Class: Biguanide
+   - First-line treatment for Type 2 diabetes
+   - How it works: Decreases liver glucose production, improves insulin sensitivity
+   - Typical dose: 500-2000 mg/day
+   - Side effects: GI upset (nausea, diarrhea) — usually improves over time
+   - Note: Should be stopped before contrast dye procedures; avoid in severe kidney disease
+
+2. Glipizide, Glyburide, Glimepiride:
+   - Class: Sulfonylureas
+   - How it works: Stimulates pancreas to produce more insulin
+   - Side effects: Hypoglycemia (low blood sugar), weight gain
+   - Caution: Risk of low blood sugar, especially in elderly
+
+3. Sitagliptin (Januvia), Linagliptin (Tradjenta):
+   - Class: DPP-4 Inhibitors
+   - How it works: Increases insulin release after meals, decreases glucagon
+   - Side effects: Generally well tolerated; joint pain, pancreatitis (rare)
+
+4. Empagliflozin (Jardiance), Dapagliflozin (Farxiga):
+   - Class: SGLT2 Inhibitors
+   - How it works: Causes kidneys to excrete excess glucose in urine
+   - Benefits: Weight loss, blood pressure reduction, heart and kidney protection
+   - Side effects: UTIs, yeast infections, dehydration
+   - Important: Shown to reduce cardiovascular death and slow kidney disease progression
+
+5. Pioglitazone (Actos):
+   - Class: Thiazolidinediones (TZDs)
+   - How it works: Improves insulin sensitivity in fat and muscle cells
+   - Side effects: Weight gain, fluid retention, fracture risk
+   - Caution: Avoid in heart failure
+
+INJECTABLE MEDICATIONS:
+
+6. Liraglutide (Victoza), Semaglutide (Ozempic), Dulaglutide (Trulicity):
+   - Class: GLP-1 Receptor Agonists
+   - How it works: Mimics GLP-1 hormone — increases insulin, decreases glucagon, slows digestion
+   - Benefits: Weight loss, cardiovascular protection
+   - Side effects: Nausea (usually temporary), pancreatitis (rare)
+   - Given as weekly or daily injection
+
+7. Insulin:
+   - Required for all Type 1 diabetes; some Type 2 patients
+   - Rapid-acting: Lispro (Humalog), Aspart (NovoLog) — works in 15 min
+   - Short-acting: Regular insulin — works in 30 min
+   - Intermediate: NPH — lasts 12-18 hours
+   - Long-acting: Glargine (Lantus), Detemir (Levemir) — lasts 24 hours
+   - Side effects: Hypoglycemia, weight gain, injection site reactions
+
+KEY MONITORING:
+- HbA1c every 3-6 months (target usually <7%)
+- Fasting and post-meal blood glucose
+- Kidney function (some medications require dose adjustment)
+- Signs of hypoglycemia: shakiness, sweating, confusion, dizziness

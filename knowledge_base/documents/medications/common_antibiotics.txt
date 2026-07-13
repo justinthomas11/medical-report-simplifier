@@ -1,0 +1,66 @@
+COMMON ANTIBIOTICS — Reference Guide
+
+OVERVIEW:
+Antibiotics are medications used to treat bacterial infections. They do NOT work against viral infections (like colds, flu, or COVID-19). Proper use of antibiotics is important to prevent antibiotic resistance.
+
+MAJOR ANTIBIOTIC CLASSES:
+
+1. Penicillins:
+   - Examples: Amoxicillin, Ampicillin, Amoxicillin-Clavulanate (Augmentin)
+   - Used for: Ear infections, sinusitis, strep throat, UTIs, pneumonia, dental infections
+   - Side effects: Diarrhea, nausea, rash
+   - Allergy: ~10% of people report penicillin allergy (most can tolerate it after testing)
+
+2. Cephalosporins:
+   - Examples: Cephalexin (Keflex), Cefuroxime, Ceftriaxone, Cefdinir
+   - Used for: Skin infections, UTIs, pneumonia, surgical prophylaxis
+   - Generations: 1st through 5th (broader coverage with higher generations)
+   - Cross-allergy with penicillin: ~1-2% (low risk)
+
+3. Macrolides:
+   - Examples: Azithromycin (Z-pack), Clarithromycin, Erythromycin
+   - Used for: Respiratory infections, skin infections, STIs, H. pylori
+   - Side effects: GI upset, QT prolongation (heart rhythm concern)
+   - Azithromycin: Often prescribed as 5-day course
+
+4. Fluoroquinolones:
+   - Examples: Ciprofloxacin (Cipro), Levofloxacin (Levaquin), Moxifloxacin
+   - Used for: UTIs, respiratory infections, GI infections
+   - Side effects: Tendon damage, nerve damage, QT prolongation
+   - FDA black box warning: Reserved for when no other options available
+
+5. Tetracyclines:
+   - Examples: Doxycycline, Minocycline, Tetracycline
+   - Used for: Acne, respiratory infections, Lyme disease, malaria prevention
+   - Side effects: Sun sensitivity, GI upset, tooth discoloration in children
+   - Take with food; avoid dairy products near dosing time
+
+6. Sulfonamides:
+   - Examples: Trimethoprim-Sulfamethoxazole (Bactrim/Septra)
+   - Used for: UTIs, ear infections, traveler's diarrhea, MRSA skin infections
+   - Side effects: Rash, sun sensitivity, blood count changes
+   - Allergy: Sulfa allergy is common
+
+7. Metronidazole (Flagyl):
+   - Used for: Anaerobic bacterial infections, C. difficile, dental infections, parasites
+   - Side effects: Metallic taste, nausea
+   - Important: Do NOT drink alcohol while taking (causes severe nausea/vomiting)
+
+8. Nitrofurantoin (Macrobid):
+   - Used for: UTIs only (does not reach adequate levels elsewhere)
+   - Side effects: GI upset, lung problems with long-term use
+   - Avoid in kidney disease
+
+IMPORTANT CONCEPTS:
+- Complete the full course even if you feel better
+- Antibiotic resistance is a growing global threat
+- Don't take antibiotics for viral infections
+- Culture and sensitivity (C&S) tests identify which antibiotic works best
+- Probiotics may help prevent antibiotic-associated diarrhea
+- Some antibiotics interact with other medications (especially warfarin, birth control)
+
+WHEN TO SEE A DOCTOR:
+- Allergic reactions (rash, swelling, difficulty breathing) — seek immediate care
+- Severe diarrhea (may indicate C. difficile infection)
+- No improvement after 48-72 hours of treatment
+- Worsening symptoms while on antibiotics

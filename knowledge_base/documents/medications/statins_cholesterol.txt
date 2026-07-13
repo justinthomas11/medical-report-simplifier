@@ -1,0 +1,85 @@
+STATINS AND CHOLESTEROL MEDICATIONS — Reference Guide
+
+OVERVIEW:
+Statins are the most commonly prescribed medications for lowering cholesterol. They reduce LDL ("bad") cholesterol and cardiovascular risk. Other cholesterol-lowering medications are available for patients who cannot tolerate statins or need additional lowering.
+
+STATIN MEDICATIONS:
+
+High-Intensity Statins (lower LDL by 50% or more):
+- Atorvastatin (Lipitor) 40-80 mg
+- Rosuvastatin (Crestor) 20-40 mg
+
+Moderate-Intensity Statins (lower LDL by 30-50%):
+- Atorvastatin 10-20 mg
+- Rosuvastatin 5-10 mg
+- Simvastatin (Zocor) 20-40 mg
+- Pravastatin (Pravachol) 40-80 mg
+
+Low-Intensity Statins (lower LDL by less than 30%):
+- Simvastatin 10 mg
+- Pravastatin 10-20 mg
+- Fluvastatin 20-40 mg
+
+HOW STATINS WORK:
+- Block HMG-CoA reductase enzyme in the liver
+- Liver produces less cholesterol
+- Liver removes more LDL from blood
+- Also stabilize arterial plaques and reduce inflammation
+
+COMMON SIDE EFFECTS:
+- Muscle pain/weakness (myalgia) — most common reason for stopping
+- Elevated liver enzymes (usually mild and reversible)
+- Digestive problems (nausea, diarrhea, constipation)
+- Headache
+- Slightly increased blood sugar (small increase in diabetes risk)
+
+SERIOUS BUT RARE SIDE EFFECTS:
+- Rhabdomyolysis (severe muscle breakdown — very rare)
+- Liver damage (rare — monitor liver enzymes)
+- Memory issues (reported but not conclusively proven)
+
+OTHER CHOLESTEROL MEDICATIONS:
+
+1. Ezetimibe (Zetia):
+   - How it works: Blocks cholesterol absorption in intestine
+   - Lowers LDL by 15-20% (additional when added to statin)
+   - Well tolerated, few side effects
+   - Often combined with statin for additional lowering
+
+2. PCSK9 Inhibitors:
+   - Evolocumab (Repatha), Alirocumab (Praluent)
+   - Injectable (every 2-4 weeks)
+   - Lowers LDL by 50-60%
+   - Used for familial hypercholesterolemia or very high risk patients
+   - Expensive
+
+3. Fibrates:
+   - Fenofibrate (Tricor), Gemfibrozil (Lopid)
+   - Primarily lower triglycerides (by 25-50%)
+   - Modest HDL increase
+   - Caution: Gemfibrozil + statin increases muscle damage risk
+
+4. Omega-3 Fatty Acids (Prescription):
+   - Icosapent ethyl (Vascepa)
+   - Lowers triglycerides
+   - Shown to reduce cardiovascular events when added to statin
+
+5. Bile Acid Sequestrants:
+   - Cholestyramine, Colesevelam
+   - Bind bile acids, forcing liver to use cholesterol to make more
+   - Lower LDL by 15-25%
+   - Side effects: GI complaints, constipation
+
+MONITORING ON STATIN THERAPY:
+- Lipid panel: 4-12 weeks after starting, then annually
+- Liver enzymes: At baseline, then as needed
+- Report any muscle pain or weakness to your doctor
+- HbA1c if risk factors for diabetes
+
+IMPORTANT NOTES:
+- Statins are among the most evidence-based medications in medicine
+- Benefits far outweigh risks for most patients
+- Take statins at the same time daily (some are best taken at night)
+- Grapefruit can interact with some statins (atorvastatin, simvastatin)
+- Muscle symptoms often improve with switching to a different statin
+- Coenzyme Q10 supplements may help with muscle symptoms (evidence mixed)

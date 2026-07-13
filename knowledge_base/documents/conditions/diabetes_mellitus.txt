@@ -1,0 +1,79 @@
+DIABETES MELLITUS — Reference Guide
+
+OVERVIEW:
+Diabetes mellitus is a chronic metabolic condition characterized by high blood sugar (glucose) levels. It occurs when the body either doesn't produce enough insulin (Type 1) or can't effectively use the insulin it produces (Type 2). Insulin is a hormone produced by the pancreas that helps glucose enter cells for energy.
+
+TYPES OF DIABETES:
+
+1. Type 1 Diabetes:
+   - Autoimmune condition where the immune system destroys insulin-producing cells in the pancreas
+   - Usually diagnosed in children and young adults
+   - Requires lifelong insulin therapy
+   - Accounts for about 5-10% of diabetes cases
+   - Onset is usually sudden
+
+2. Type 2 Diabetes:
+   - Body becomes resistant to insulin or doesn't produce enough
+   - Most common type (90-95% of cases)
+   - Often associated with obesity, physical inactivity, and family history
+   - Can be managed with lifestyle changes, oral medications, and/or insulin
+   - Onset is gradual
+
+3. Gestational Diabetes:
+   - Develops during pregnancy
+   - Usually resolves after delivery
+   - Increases risk of developing Type 2 diabetes later
+   - Requires monitoring and sometimes treatment during pregnancy
+
+4. Prediabetes:
+   - Blood sugar higher than normal but not high enough for diabetes diagnosis
+   - HbA1c: 5.7-6.4%
+   - Fasting glucose: 100-125 mg/dL
+   - Can be reversed with lifestyle changes
+
+DIAGNOSTIC CRITERIA:
+- Fasting Blood Glucose >= 126 mg/dL (on two occasions)
+- HbA1c >= 6.5%
+- 2-hour OGTT >= 200 mg/dL
+- Random glucose >= 200 mg/dL with symptoms
+
+KEY LAB VALUES IN DIABETES MANAGEMENT:
+- HbA1c: Target <7% for most patients
+- Fasting glucose: Target 80-130 mg/dL
+- Post-meal glucose: Target <180 mg/dL (1-2 hours after eating)
+- Blood pressure: Target <130/80 mmHg
+- LDL cholesterol: Target <100 mg/dL
+- Triglycerides: Target <150 mg/dL
+
+SYMPTOMS:
+- Frequent urination (polyuria)
+- Excessive thirst (polydipsia)
+- Unexplained weight loss
+- Increased hunger (polyphagia)
+- Fatigue
+- Blurred vision
+- Slow wound healing
+- Frequent infections
+- Numbness or tingling in hands/feet
+
+COMPLICATIONS:
+- Cardiovascular disease (2-4x increased risk)
+- Diabetic nephropathy (kidney disease — leading cause of kidney failure)
+- Diabetic retinopathy (eye damage — leading cause of blindness in adults)
+- Diabetic neuropathy (nerve damage — especially feet)
+- Diabetic foot ulcers (can lead to amputation)
+- Increased infection risk
+- Diabetic ketoacidosis (DKA — life-threatening, mainly Type 1)
+
+MANAGEMENT:
+- Diet: Balanced meals, carbohydrate counting, low glycemic index foods
+- Exercise: 150 minutes/week of moderate activity
+- Medications: Metformin (first-line for Type 2), insulin, SGLT2 inhibitors, GLP-1 agonists
+- Monitoring: Regular blood glucose testing, HbA1c every 3-6 months
+- Regular screening: Eyes, kidneys, feet, cardiovascular risk
+
+IMPORTANT NOTES:
+- Diabetes is a lifelong condition but can be well-managed
+- Early detection and treatment prevent complications
+- Lifestyle changes are the foundation of diabetes management
+- Regular follow-up with healthcare provider is essential

@@ -1,0 +1,66 @@
+COMMON MEDICAL TERMS EXPLAINED — Reference Guide
+
+This glossary explains medical terms commonly found in medical reports in simple language.
+
+GENERAL TERMS:
+- Acute: Sudden onset, short duration (e.g., acute infection)
+- Chronic: Long-lasting, ongoing (e.g., chronic kidney disease)
+- Benign: Not cancerous, not harmful
+- Malignant: Cancerous, capable of spreading
+- Bilateral: Affecting both sides
+- Unilateral: Affecting one side
+- Asymptomatic: Without symptoms
+- Symptomatic: Having symptoms
+- Idiopathic: Of unknown cause
+- Etiology: The cause of a disease
+- Prognosis: Expected outcome or course of a disease
+- Comorbidity: Having two or more conditions at the same time
+- Contraindicated: Should not be used or done (potentially harmful)
+- Prophylactic: Preventive treatment
+
+CONDITION DESCRIPTORS:
+- -itis: Inflammation (e.g., arthritis = joint inflammation, hepatitis = liver inflammation)
+- -osis: Abnormal condition (e.g., fibrosis = scarring, stenosis = narrowing)
+- -emia: Blood condition (e.g., anemia = low red blood cells, hyperglycemia = high blood sugar)
+- -penia: Deficiency (e.g., thrombocytopenia = low platelets, leukopenia = low white blood cells)
+- -megaly: Enlargement (e.g., hepatomegaly = enlarged liver, splenomegaly = enlarged spleen)
+- -ectomy: Surgical removal (e.g., appendectomy = removal of appendix)
+- -otomy: Cutting into (e.g., tracheotomy = cutting into the windpipe)
+- -scopy: Looking inside (e.g., endoscopy = looking inside the digestive tract)
+- -graphy: Recording/imaging (e.g., radiography = X-ray imaging)
+
+BODY SYSTEM PREFIXES:
+- Cardio-: Heart (cardiovascular = heart and blood vessels)
+- Hepato-: Liver (hepatitis = liver inflammation)
+- Nephro-/Renal: Kidney (nephropathy = kidney disease)
+- Pulmo-: Lung (pulmonary = related to lungs)
+- Neuro-: Nerve/brain (neuropathy = nerve damage)
+- Gastro-: Stomach (gastritis = stomach inflammation)
+- Hemo-/Hemato-: Blood (hematology = study of blood)
+- Osteo-: Bone (osteoporosis = weak/brittle bones)
+- Derm-: Skin (dermatitis = skin inflammation)
+- Endo-: Within/internal (endocrine = hormonal system)
+
+COMMON REPORT TERMS:
+- Within normal limits (WNL): Results are in the expected range
+- Unremarkable: Nothing unusual or abnormal found
+- Indicated: Recommended or suggested
+- Elevated: Higher than normal
+- Depressed/Decreased: Lower than normal
+- Borderline: At the edge of normal/abnormal
+- Significant: Important, meaningful (medically relevant)
+- Incidental finding: Something found unexpectedly during testing for something else
+- Differential diagnosis: List of possible conditions that could explain symptoms
+- Follow-up: Return visit or additional testing needed
+- Impression: Doctor's interpretation or conclusion
+- Findings: What was observed or measured
+
+SEVERITY TERMS:
+- Mild: Slight, minor
+- Moderate: Medium severity
+- Severe: Serious, significant
+- Critical: Life-threatening, requires immediate attention
+- Stable: Not changing, consistent
+- Progressive: Getting worse over time
+- Resolving: Getting better
+- Refractory: Not responding to treatment

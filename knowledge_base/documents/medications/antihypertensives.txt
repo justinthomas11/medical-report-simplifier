@@ -1,0 +1,69 @@
+ANTIHYPERTENSIVE MEDICATIONS — Reference Guide
+
+OVERVIEW:
+Antihypertensives are medications used to treat high blood pressure (hypertension). Multiple drug classes are available, and many patients require combination therapy to reach blood pressure goals. Target is generally <130/80 mmHg for most patients.
+
+FIRST-LINE MEDICATIONS:
+
+1. ACE Inhibitors (-pril ending):
+   - Examples: Lisinopril, Enalapril, Ramipril, Benazepril
+   - How it works: Blocks angiotensin-converting enzyme, relaxes blood vessels
+   - Benefits: Heart and kidney protective; preferred in diabetes and heart failure
+   - Side effects: Dry cough (10-20%), elevated potassium, rare angioedema
+   - Contraindicated: Pregnancy, bilateral renal artery stenosis
+
+2. ARBs (-sartan ending):
+   - Examples: Losartan, Valsartan, Irbesartan, Telmisartan, Olmesartan
+   - How it works: Blocks angiotensin II receptor, relaxes blood vessels
+   - Benefits: Similar to ACE inhibitors but without the cough
+   - Side effects: Elevated potassium, dizziness
+   - Often used when ACE inhibitors cause cough
+
+3. Calcium Channel Blockers:
+   - Dihydropyridines: Amlodipine, Nifedipine — primarily lower blood pressure
+   - Non-dihydropyridines: Diltiazem, Verapamil — also slow heart rate
+   - How it works: Relaxes blood vessel walls by blocking calcium entry
+   - Side effects: Ankle swelling (amlodipine), constipation (verapamil), dizziness
+   - Good choice for elderly patients and those with angina
+
+4. Thiazide Diuretics:
+   - Examples: Hydrochlorothiazide (HCTZ), Chlorthalidone, Indapamide
+   - How it works: Increases urine output, reduces blood volume
+   - Side effects: Low potassium, increased uric acid, increased blood sugar
+   - Often used in combination with ACE inhibitors or ARBs
+   - Chlorthalidone may be preferred over HCTZ (longer acting)
+
+OTHER ANTIHYPERTENSIVES:
+
+5. Beta-Blockers (-lol ending):
+   - Examples: Metoprolol, Atenolol, Carvedilol, Bisoprolol, Propranolol
+   - How it works: Slows heart rate and reduces heart's workload
+   - Used for: Hypertension with heart failure, post-heart attack, atrial fibrillation
+   - Side effects: Fatigue, slow heart rate, cold extremities, weight gain
+   - Not first-line for hypertension alone (unless other indication exists)
+
+6. Alpha-Blockers:
+   - Examples: Doxazosin, Prazosin, Terazosin
+   - How it works: Relaxes blood vessels by blocking alpha receptors
+   - Also used for: Enlarged prostate (BPH)
+   - Side effects: Dizziness, orthostatic hypotension (drop in BP when standing)
+
+7. Aldosterone Antagonists:
+   - Examples: Spironolactone, Eplerenone
+   - How it works: Blocks aldosterone, reduces fluid retention
+   - Used for: Resistant hypertension, heart failure
+   - Side effects: Elevated potassium, gynecomastia (spironolactone)
+
+BLOOD PRESSURE MONITORING:
+- Home monitoring is recommended for all hypertensive patients
+- Take readings at the same time daily
+- Sit quietly for 5 minutes before measuring
+- Take 2-3 readings 1 minute apart and average them
+- Keep a log to share with your doctor
+
+IMPORTANT NOTES:
+- Never stop blood pressure medications suddenly
+- Most medications take 2-4 weeks to show full effect
+- Lifestyle changes complement medication therapy
+- Many patients need 2-3 medications to reach target
+- Regular follow-up is essential to adjust medications

@@ -1,0 +1,66 @@
+ANEMIA — Reference Guide
+
+OVERVIEW:
+Anemia is a condition where you don't have enough healthy red blood cells or hemoglobin to carry adequate oxygen to your body's tissues. Hemoglobin is the protein in red blood cells that carries oxygen. Anemia can make you feel tired, weak, and short of breath.
+
+TYPES OF ANEMIA:
+
+1. Iron Deficiency Anemia (most common):
+   - Cause: Insufficient iron for hemoglobin production
+   - Lab findings: Low hemoglobin, low MCV (microcytic), low ferritin, low serum iron, high TIBC
+   - Causes: Blood loss (menstruation, GI bleeding), poor diet, malabsorption, pregnancy
+   - Treatment: Iron supplements, treat underlying cause
+
+2. Vitamin B12 Deficiency Anemia:
+   - Cause: Insufficient vitamin B12 for red blood cell production
+   - Lab findings: Low hemoglobin, high MCV (macrocytic), low B12, elevated methylmalonic acid
+   - Causes: Pernicious anemia, vegetarian diet, malabsorption, gastric surgery
+   - Treatment: B12 supplements or injections
+
+3. Folate Deficiency Anemia:
+   - Cause: Insufficient folic acid
+   - Lab findings: Low hemoglobin, high MCV (macrocytic), low folate
+   - Causes: Poor diet, alcoholism, pregnancy, certain medications
+   - Treatment: Folic acid supplements
+
+4. Anemia of Chronic Disease:
+   - Cause: Chronic inflammation interferes with iron use
+   - Lab findings: Low hemoglobin, normal or low MCV, low serum iron, normal or high ferritin
+   - Causes: Chronic infections, autoimmune diseases, cancer, kidney disease
+   - Treatment: Treat underlying disease
+
+5. Hemolytic Anemia:
+   - Cause: Red blood cells destroyed faster than produced
+   - Lab findings: Low hemoglobin, high reticulocyte count, high bilirubin, high LDH
+   - Causes: Autoimmune, infections, medications, sickle cell disease
+   - Treatment: Depends on cause
+
+6. Aplastic Anemia:
+   - Cause: Bone marrow fails to produce enough blood cells
+   - Lab findings: Low hemoglobin, low WBC, low platelets (pancytopenia)
+   - Causes: Autoimmune, toxins, medications, viral infections
+   - Treatment: Blood transfusions, bone marrow transplant
+
+KEY LAB VALUES FOR ANEMIA DIAGNOSIS:
+- Hemoglobin: Men <13.5 g/dL, Women <12.0 g/dL = anemia
+- MCV: <80 fL = microcytic, 80-100 fL = normocytic, >100 fL = macrocytic
+- Ferritin: Low (<30 ng/mL) = iron deficiency
+- Serum iron, TIBC, transferrin saturation
+- Reticulocyte count (bone marrow response)
+- Peripheral blood smear (red blood cell shape and size)
+
+SYMPTOMS:
+- Fatigue and weakness
+- Pale skin
+- Shortness of breath
+- Dizziness or lightheadedness
+- Cold hands and feet
+- Fast or irregular heartbeat
+- Headache
+- Chest pain
+
+IMPORTANT NOTES:
+- Anemia is a sign, not a disease — always look for the underlying cause
+- Iron deficiency is the most common nutritional deficiency worldwide
+- Mild anemia may not cause symptoms
+- Severity matters: mild (10-12 g/dL), moderate (7-10 g/dL), severe (<7 g/dL)

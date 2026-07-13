@@ -1,0 +1,48 @@
+HYPERLIPIDEMIA (HIGH CHOLESTEROL) — Reference Guide
+
+OVERVIEW:
+Hyperlipidemia refers to elevated levels of lipids (fats) in the blood, including cholesterol and triglycerides. It is a major risk factor for cardiovascular disease, including heart attack and stroke. It usually has no symptoms and is detected through blood tests.
+
+TYPES:
+1. Hypercholesterolemia: Elevated total and/or LDL cholesterol
+2. Hypertriglyceridemia: Elevated triglycerides
+3. Mixed hyperlipidemia: Both cholesterol and triglycerides elevated
+4. Familial hypercholesterolemia: Genetic condition causing very high LDL from birth
+
+RISK ASSESSMENT:
+- 10-year cardiovascular risk is calculated using factors: age, sex, race, cholesterol, blood pressure, diabetes, smoking
+- Low risk: <5% — lifestyle changes
+- Borderline: 5-7.5% — consider medication if risk enhancers present
+- Intermediate: 7.5-20% — moderate-intensity statin recommended
+- High risk: >20% — high-intensity statin recommended
+
+TREATMENT TARGETS:
+- General population: LDL <100 mg/dL
+- High cardiovascular risk: LDL <70 mg/dL
+- Very high risk (prior heart attack/stroke): LDL <55 mg/dL
+- Triglycerides: <150 mg/dL
+- HDL: >40 mg/dL (men), >50 mg/dL (women)
+
+LIFESTYLE MODIFICATIONS:
+- Heart-healthy diet (Mediterranean, DASH): reduce saturated fat to <7% of calories, eliminate trans fats
+- Regular exercise: 150 minutes moderate or 75 minutes vigorous per week
+- Weight management: Lose 5-10% body weight if overweight
+- Smoking cessation
+- Limit alcohol intake
+- Increase fiber intake (25-30g/day)
+- Plant sterols and stanols (2g/day can lower LDL by 5-15%)
+
+MEDICATIONS:
+1. Statins (first-line): Atorvastatin, Rosuvastatin, Simvastatin — lower LDL by 30-50%
+2. Ezetimibe: Blocks cholesterol absorption — lowers LDL by additional 15-20%
+3. PCSK9 inhibitors: Injectable — lowers LDL by 50-60% (for very high risk)
+4. Fibrates: Primarily lower triglycerides
+5. Omega-3 fatty acids: Lower triglycerides
+6. Bile acid sequestrants: Lower LDL
+
+IMPORTANT NOTES:
+- Hyperlipidemia has NO symptoms — screening is essential
+- Statins are among the most studied and effective cardiovascular medications
+- Lifestyle changes are always the foundation, even with medication
+- Regular lipid panel monitoring (every 4-12 weeks after starting medication, then annually)
+- Some statins can affect liver enzymes — monitoring may be needed

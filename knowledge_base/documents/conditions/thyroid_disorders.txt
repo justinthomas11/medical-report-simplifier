@@ -1,0 +1,47 @@
+THYROID DISORDERS — Reference Guide
+
+OVERVIEW:
+Thyroid disorders are conditions that affect the thyroid gland's ability to produce the right amount of hormones. The thyroid controls metabolism, energy levels, heart rate, and body temperature. Disorders range from harmless goiter to life-threatening thyroid cancer.
+
+HYPOTHYROIDISM (Underactive Thyroid):
+- The thyroid doesn't produce enough hormones
+- Most common thyroid disorder
+- Lab findings: TSH HIGH, Free T4 LOW
+- Most common cause: Hashimoto thyroiditis (autoimmune)
+- Symptoms: Fatigue, weight gain, cold intolerance, dry skin, constipation, depression, muscle weakness, hair loss, puffy face, slow heart rate
+- Treatment: Levothyroxine (daily thyroid hormone replacement)
+- Monitoring: TSH every 6-8 weeks until stable, then annually
+
+HYPERTHYROIDISM (Overactive Thyroid):
+- The thyroid produces too much hormone
+- Lab findings: TSH LOW, Free T4 HIGH, Free T3 may be HIGH
+- Most common cause: Graves disease (autoimmune)
+- Symptoms: Weight loss, rapid heartbeat, anxiety, tremors, heat intolerance, excessive sweating, diarrhea, eye problems (Graves), enlarged thyroid
+- Treatment: Antithyroid medications (methimazole), radioactive iodine, thyroid surgery
+- Monitoring: TSH and Free T4 every 4-6 weeks during treatment
+
+THYROID NODULES:
+- Lumps in the thyroid gland (very common — found in up to 50% of adults)
+- Most are benign (non-cancerous)
+- Evaluation: Thyroid ultrasound, TSH, fine needle aspiration biopsy if suspicious
+- Concerning features: Rapid growth, hard texture, fixation to surrounding tissue, lymph node enlargement
+
+GOITER:
+- Enlarged thyroid gland
+- Can occur with hypothyroidism, hyperthyroidism, or normal thyroid function
+- Causes: Iodine deficiency, Hashimoto, Graves, multinodular goiter
+- May cause difficulty swallowing or breathing if large
+
+THYROID CANCER:
+- Relatively uncommon but increasing in diagnosis
+- Types: Papillary (most common, best prognosis), Follicular, Medullary, Anaplastic
+- Usually presents as a thyroid nodule
+- Treatment: Surgery, radioactive iodine, thyroid hormone suppression
+- Overall prognosis is generally good (especially papillary type)
+
+IMPORTANT NOTES:
+- Thyroid disorders are more common in women (5-8x more than men)
+- Family history increases risk
+- Iodine is essential for thyroid hormone production
+- Most thyroid conditions are treatable and manageable
+- Regular monitoring of thyroid levels is essential during treatment

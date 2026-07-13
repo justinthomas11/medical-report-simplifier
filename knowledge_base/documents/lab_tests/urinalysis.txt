@@ -1,0 +1,96 @@
+URINALYSIS — Reference Guide
+
+OVERVIEW:
+A urinalysis is a test that examines the content of urine. It involves visual examination (color, clarity), chemical analysis (dipstick test), and microscopic examination. It helps diagnose urinary tract infections, kidney disease, diabetes, and other conditions.
+
+COMPONENTS AND NORMAL FINDINGS:
+
+1. Color:
+   - Normal: Pale yellow to amber
+   - Dark yellow: Dehydration, B vitamins
+   - Red/Pink: Blood, beets, medications
+   - Brown: Liver disease, severe dehydration
+   - Cloudy: Infection, kidney stones
+
+2. Specific Gravity:
+   - Normal: 1.005-1.030
+   - High: Dehydration, SIADH
+   - Low: Overhydration, diabetes insipidus, kidney disease
+
+3. pH:
+   - Normal: 4.5-8.0 (average 6.0)
+   - Acidic (<5.5): High-protein diet, diabetic ketoacidosis, dehydration
+   - Alkaline (>7.5): Urinary tract infection, vegetarian diet, kidney disease
+
+4. Protein (Albumin):
+   - Normal: Negative (trace amounts)
+   - Positive: Kidney disease, urinary tract infection, heart failure, fever, exercise
+   - Persistent proteinuria is a sign of kidney damage
+
+5. Glucose:
+   - Normal: Negative
+   - Positive: Diabetes (blood sugar exceeds kidney threshold ~180 mg/dL), pregnancy, renal glycosuria
+
+6. Ketones:
+   - Normal: Negative
+   - Positive: Diabetic ketoacidosis, starvation, low-carb diet, prolonged fasting
+
+7. Blood (Hemoglobin):
+   - Normal: Negative
+   - Positive: Urinary tract infection, kidney stones, kidney disease, bladder cancer, menstrual contamination
+
+8. Bilirubin:
+   - Normal: Negative
+   - Positive: Liver disease, bile duct obstruction
+
+9. Urobilinogen:
+   - Normal: 0.2-1.0 mg/dL
+   - High: Liver disease, hemolytic anemia
+   - Absent: Bile duct obstruction
+
+10. Nitrites:
+    - Normal: Negative
+    - Positive: Bacterial infection (suggests UTI — bacteria convert nitrates to nitrites)
+
+11. Leukocyte Esterase:
+    - Normal: Negative
+    - Positive: White blood cells present — suggests infection or inflammation
+
+MICROSCOPIC EXAMINATION:
+
+12. Red Blood Cells (RBC):
+    - Normal: 0-2 per high power field (HPF)
+    - Elevated: Kidney disease, stones, infection, trauma, cancer
+
+13. White Blood Cells (WBC):
+    - Normal: 0-5 per HPF
+    - Elevated: Urinary tract infection, kidney infection, inflammation
+
+14. Bacteria:
+    - Normal: None or few
+    - Many: Urinary tract infection (confirm with culture)
+
+15. Casts:
+    - Normal: Occasional hyaline casts
+    - Red blood cell casts: Glomerulonephritis
+    - White blood cell casts: Kidney infection (pyelonephritis)
+    - Granular casts: Kidney disease
+
+16. Crystals:
+    - Calcium oxalate: May indicate kidney stones
+    - Uric acid: Gout, kidney stones
+    - Small amounts may be normal
+
+COMMON DIAGNOSES FROM URINALYSIS:
+- UTI: Positive nitrites, leukocyte esterase, WBCs, bacteria
+- Kidney disease: Protein, blood, casts
+- Diabetes: Glucose, ketones
+- Liver disease: Bilirubin, elevated urobilinogen
+- Dehydration: High specific gravity, dark color
+
+IMPORTANT NOTES:
+- Clean-catch midstream sample gives best results
+- First morning urine is most concentrated and preferred
+- Medications, foods, and exercise can affect results
+- Abnormal dipstick results often need microscopic confirmation
+- A positive urinalysis may require a urine culture for confirmation

@@ -1,0 +1,68 @@
+THYROID FUNCTION TESTS — Reference Guide
+
+OVERVIEW:
+Thyroid function tests measure how well the thyroid gland is working. The thyroid is a butterfly-shaped gland in the neck that produces hormones controlling metabolism, energy, heart rate, body temperature, and growth.
+
+COMPONENTS AND NORMAL RANGES:
+
+1. Thyroid-Stimulating Hormone (TSH):
+   - Normal: 0.4-4.0 mIU/L
+   - High: Hypothyroidism (underactive thyroid) — the pituitary produces more TSH to stimulate a sluggish thyroid
+   - Low: Hyperthyroidism (overactive thyroid) — the pituitary reduces TSH because the thyroid is already overproducing
+   - Most important screening test for thyroid disorders
+   - TSH is produced by the pituitary gland, NOT the thyroid
+
+2. Free T4 (Free Thyroxine):
+   - Normal: 0.8-1.8 ng/dL
+   - High: Hyperthyroidism, excessive thyroid medication
+   - Low: Hypothyroidism, pituitary disorders
+   - T4 is the main hormone produced by the thyroid
+   - "Free" means the unbound, active form
+
+3. Free T3 (Free Triiodothyronine):
+   - Normal: 2.3-4.2 pg/mL
+   - High: Hyperthyroidism (especially T3 thyrotoxicosis)
+   - Low: Severe hypothyroidism, non-thyroidal illness
+   - T3 is the more active thyroid hormone
+   - Most T3 is converted from T4 in tissues
+
+4. Total T4:
+   - Normal: 5.0-12.0 mcg/dL
+   - Includes both bound and unbound T4
+   - Affected by pregnancy, estrogen, liver disease (which change binding proteins)
+
+5. Total T3:
+   - Normal: 80-200 ng/dL
+   - Less commonly ordered than Free T3
+   - Useful in diagnosing T3 thyrotoxicosis
+
+6. Thyroid Antibodies:
+   - TPO Antibodies (anti-thyroid peroxidase): Normal <35 IU/mL
+   - Thyroglobulin Antibodies: Normal <20 IU/mL
+   - TSI (Thyroid Stimulating Immunoglobulin): Normal <140%
+   - Elevated TPO: Hashimoto thyroiditis (most common cause of hypothyroidism)
+   - Elevated TSI: Graves disease (most common cause of hyperthyroidism)
+
+HYPOTHYROIDISM (Underactive Thyroid):
+- TSH: HIGH, Free T4: LOW
+- Symptoms: Fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, depression, slow heart rate
+- Most common cause: Hashimoto thyroiditis (autoimmune)
+- Treatment: Levothyroxine (synthetic T4 replacement)
+
+HYPERTHYROIDISM (Overactive Thyroid):
+- TSH: LOW, Free T4: HIGH and/or Free T3: HIGH
+- Symptoms: Weight loss, rapid heart rate, anxiety, tremors, heat intolerance, sweating, frequent bowel movements, bulging eyes
+- Most common cause: Graves disease (autoimmune)
+- Treatment: Antithyroid medications, radioactive iodine, surgery
+
+SUBCLINICAL THYROID DISEASE:
+- Subclinical hypothyroidism: TSH slightly high, Free T4 normal
+- Subclinical hyperthyroidism: TSH slightly low, Free T4 normal
+- May or may not require treatment depending on symptoms and degree
+
+IMPORTANT NOTES:
+- TSH is the single best screening test for thyroid disease
+- TSH and thyroid hormones have an inverse relationship
+- Biotin supplements can interfere with thyroid test results
+- Thyroid disease is more common in women
+- Pregnancy significantly affects thyroid hormone levels

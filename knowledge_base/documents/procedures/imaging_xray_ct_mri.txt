@@ -1,0 +1,100 @@
+MEDICAL IMAGING — X-RAY, CT SCAN, AND MRI — Reference Guide
+
+OVERVIEW:
+Medical imaging allows doctors to see inside the body without surgery. Different imaging methods use different technologies and are suited for different purposes.
+
+X-RAY (RADIOGRAPH):
+
+What it is:
+- Uses small amounts of radiation to create images of internal structures
+- Quick, painless, and widely available
+- Best for: bones, chest, detecting fractures and lung conditions
+
+Common X-ray types:
+- Chest X-ray: Evaluates heart size, lungs, pneumonia, fluid, fractures
+- Bone X-ray: Fractures, arthritis, bone infections, tumors
+- Abdominal X-ray: Bowel obstruction, kidney stones, foreign bodies
+- Dental X-ray: Tooth decay, infections, jaw conditions
+
+Normal chest X-ray findings:
+- Clear lung fields (no opacities or infiltrates)
+- Normal heart size (cardiothoracic ratio <0.5)
+- Normal mediastinum and trachea
+- No pleural effusion
+- Intact bony structures
+
+Abnormal findings:
+- Opacity/infiltrate: Pneumonia, tumor, fluid
+- Cardiomegaly: Enlarged heart (heart failure)
+- Pleural effusion: Fluid around the lungs
+- Pneumothorax: Collapsed lung
+- Fracture: Break in bone continuity
+
+CT SCAN (COMPUTED TOMOGRAPHY):
+
+What it is:
+- Uses X-rays and computers to create detailed cross-sectional images
+- More detailed than regular X-ray
+- Can be done with or without contrast dye
+- Scan time: Usually 5-30 minutes
+
+Best for:
+- Head/brain: Stroke, bleeding, tumors, trauma
+- Chest: Pulmonary embolism, lung nodules, aortic conditions
+- Abdomen: Appendicitis, kidney stones, liver/pancreas conditions, tumors
+- Trauma: Quick assessment of injuries
+
+Contrast dye:
+- IV contrast: Enhances blood vessels and organs
+- Oral contrast: Enhances GI tract
+- Allergic reactions possible (inform doctor of prior reactions)
+- Kidney function should be checked before IV contrast
+
+Common CT findings:
+- Normal: No acute abnormality, no mass, no hemorrhage
+- Abnormal: Mass/lesion, hemorrhage, fracture, effusion, lymphadenopathy
+
+MRI (MAGNETIC RESONANCE IMAGING):
+
+What it is:
+- Uses strong magnets and radio waves (NO radiation)
+- Creates very detailed images of soft tissues
+- Scan time: 30-90 minutes (patient must lie still)
+
+Best for:
+- Brain and spinal cord: Tumors, MS, stroke, disc herniation
+- Joints: Ligament tears, cartilage damage, meniscus injuries
+- Soft tissues: Muscles, tendons, organs
+- Cardiac MRI: Heart structure and function
+
+MRI safety:
+- Cannot be done with certain metal implants (pacemakers, some clips)
+- No radiation exposure
+- Claustrophobia may be an issue (open MRI available)
+- Loud during scanning (earplugs provided)
+- Contrast (gadolinium) may be used — different from CT contrast
+
+Advantages over CT:
+- No radiation
+- Better soft tissue detail
+- Better for brain, spine, and joints
+
+Disadvantages:
+- Longer scan time
+- More expensive
+- Cannot be done with certain implants
+- Less available in emergencies
+
+ULTRASOUND:
+- Uses sound waves (no radiation)
+- Real-time imaging
+- Best for: pregnancy, gallbladder, thyroid, heart (echocardiogram), kidneys, blood vessels
+- No contrast needed (usually)
+- Operator-dependent
+
+IMPORTANT NOTES:
+- Inform your doctor if you are pregnant before any imaging
+- CT and X-ray involve radiation — benefit must outweigh risk
+- MRI is safe during pregnancy (no radiation) but gadolinium contrast is avoided
+- Always inform about allergies, kidney problems, and metal implants
+- Results are interpreted by radiologists and reported to your doctor

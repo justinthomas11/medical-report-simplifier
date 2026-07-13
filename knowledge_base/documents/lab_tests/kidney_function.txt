@@ -1,0 +1,79 @@
+KIDNEY FUNCTION TESTS (RENAL PANEL) — Reference Guide
+
+OVERVIEW:
+Kidney function tests measure how well your kidneys are filtering waste from your blood. The kidneys filter about 200 liters of blood daily, removing waste products and excess fluid. These tests are crucial for detecting kidney disease early.
+
+COMPONENTS AND NORMAL RANGES:
+
+1. Blood Urea Nitrogen (BUN):
+   - Normal: 7-20 mg/dL
+   - High: Kidney disease, dehydration, high-protein diet, heart failure, GI bleeding
+   - Low: Liver disease, malnutrition, overhydration
+   - BUN measures the amount of nitrogen in your blood from urea (a waste product)
+
+2. Creatinine (Serum):
+   - Normal: Men: 0.7-1.3 mg/dL, Women: 0.6-1.1 mg/dL
+   - High: Kidney disease or damage, dehydration, muscle breakdown, certain medications
+   - Low: Low muscle mass, severe liver disease
+   - More reliable than BUN for kidney function assessment
+   - Produced from normal muscle metabolism at a relatively constant rate
+
+3. BUN/Creatinine Ratio:
+   - Normal: 10:1 to 20:1
+   - High ratio (>20:1): Dehydration, GI bleeding, high-protein diet, heart failure
+   - Low ratio (<10:1): Liver disease, malnutrition, rhabdomyolysis
+
+4. Estimated Glomerular Filtration Rate (eGFR):
+   - Normal: 90-120 mL/min/1.73m2
+   - Mildly decreased: 60-89 mL/min (Stage 2 CKD)
+   - Moderately decreased: 30-59 mL/min (Stage 3 CKD)
+   - Severely decreased: 15-29 mL/min (Stage 4 CKD)
+   - Kidney failure: Less than 15 mL/min (Stage 5 CKD)
+   - Best overall indicator of kidney function
+   - Calculated from creatinine, age, sex, and race
+
+5. Uric Acid:
+   - Normal: Men: 3.4-7.0 mg/dL, Women: 2.4-6.0 mg/dL
+   - High: Gout, kidney disease, high-purine diet, medications
+   - Low: Liver disease, Fanconi syndrome
+
+6. Electrolytes (kidney-related):
+   - Sodium: 136-145 mEq/L
+   - Potassium: 3.5-5.0 mEq/L
+   - Chloride: 98-106 mEq/L
+   - Bicarbonate (CO2): 23-29 mEq/L
+   - Kidneys regulate electrolyte balance
+   - Abnormal levels can indicate kidney dysfunction
+
+7. Calcium:
+   - Normal: 8.5-10.5 mg/dL
+   - Kidneys help regulate calcium levels
+   - Abnormal in advanced kidney disease
+
+8. Phosphorus:
+   - Normal: 2.5-4.5 mg/dL
+   - High: Advanced kidney disease (can't excrete phosphorus)
+   - Often monitored alongside calcium in kidney disease
+
+STAGES OF CHRONIC KIDNEY DISEASE (CKD):
+- Stage 1: eGFR 90+ (normal function, but other evidence of kidney damage)
+- Stage 2: eGFR 60-89 (mild decrease)
+- Stage 3a: eGFR 45-59 (mild to moderate decrease)
+- Stage 3b: eGFR 30-44 (moderate to severe decrease)
+- Stage 4: eGFR 15-29 (severe decrease)
+- Stage 5: eGFR <15 (kidney failure, may need dialysis)
+
+COMMON CAUSES OF KIDNEY DISEASE:
+- Diabetes (leading cause)
+- High blood pressure (second leading cause)
+- Glomerulonephritis
+- Polycystic kidney disease
+- Prolonged obstruction of urinary tract
+- Recurrent kidney infections
+- Certain medications (NSAIDs, contrast dye)
+
+IMPORTANT NOTES:
+- Early kidney disease often has no symptoms
+- eGFR is the most important single number for kidney function
+- Creatinine alone can be misleading (affected by muscle mass)
+- Regular monitoring is essential for patients with diabetes or hypertension

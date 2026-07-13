@@ -1,0 +1,95 @@
+ECG AND CARDIAC TESTS — Reference Guide
+
+OVERVIEW:
+Cardiac tests evaluate the heart's structure, electrical activity, and function. The ECG (electrocardiogram) is the most common and fundamental cardiac test.
+
+ECG / EKG (ELECTROCARDIOGRAM):
+
+What it is:
+- Records the electrical activity of the heart
+- Quick (10 seconds), painless, non-invasive
+- Uses electrodes placed on chest, arms, and legs
+- Produces a tracing showing heart rhythm and electrical conduction
+
+What ECG measures:
+- Heart rate: Normal 60-100 bpm
+- Heart rhythm: Regular or irregular
+- Electrical conduction: How electrical signals travel through the heart
+- Heart muscle: Signs of damage, enlargement, or strain
+
+Normal ECG findings:
+- Normal sinus rhythm (NSR)
+- Regular rate and rhythm
+- Normal P waves, QRS complexes, and T waves
+- No ST segment changes
+- Normal intervals (PR, QRS, QT)
+
+Common abnormal findings:
+- Sinus tachycardia: Heart rate >100 bpm (exercise, fever, anxiety, dehydration)
+- Sinus bradycardia: Heart rate <60 bpm (athletes, medications, heart block)
+- Atrial fibrillation (AFib): Irregular rhythm, no distinct P waves — increases stroke risk
+- ST elevation: May indicate acute heart attack (STEMI) — emergency
+- ST depression: May indicate ischemia (reduced blood flow to heart)
+- T wave inversion: Can indicate ischemia, strain, or prior heart attack
+- Bundle branch block (BBB): Delayed conduction — left or right
+- Prolonged QT interval: Risk of dangerous arrhythmias
+- Left ventricular hypertrophy (LVH): Thickened heart muscle — often from hypertension
+
+ECHOCARDIOGRAM (Echo):
+
+What it is:
+- Ultrasound of the heart
+- Shows heart structure, valves, and how well heart pumps
+- Non-invasive, no radiation
+
+Key measurements:
+- Ejection Fraction (EF): Normal 55-70%. Measures how well the left ventricle pumps
+  - Mildly reduced: 40-54%
+  - Moderately reduced: 30-40%
+  - Severely reduced: <30%
+- Valve function: Stenosis (narrowing) or regurgitation (leaking)
+- Wall motion: Normal or abnormal movement
+- Chamber sizes: Normal or dilated/enlarged
+- Pericardial effusion: Fluid around the heart
+
+STRESS TEST:
+
+What it is:
+- Evaluates heart function during physical exertion
+- Exercise (treadmill/bicycle) or pharmacological (medication-induced) stress
+- Can be combined with ECG, echo, or nuclear imaging
+
+Types:
+- Exercise stress test: Walk on treadmill with increasing speed/incline
+- Pharmacological stress test: Drug (dobutamine/adenosine) simulates exercise — for those who can't exercise
+- Nuclear stress test: Uses radioactive tracer to image blood flow to heart
+- Stress echocardiogram: Echo before and after stress
+
+Results:
+- Normal/Negative: Heart responds normally to stress
+- Abnormal/Positive: Suggests reduced blood flow to part of the heart (possible coronary artery disease)
+
+CARDIAC BIOMARKERS (Blood Tests):
+
+1. Troponin (I or T):
+   - Most sensitive marker for heart muscle damage
+   - Normal: <0.04 ng/mL (varies by assay)
+   - Elevated: Heart attack (myocardial infarction), myocarditis, heart failure
+   - Rises within 3-6 hours of heart attack, peaks at 24 hours
+
+2. BNP / NT-proBNP:
+   - Marker for heart failure
+   - BNP normal: <100 pg/mL
+   - NT-proBNP normal: <300 pg/mL
+   - Elevated: Heart failure, kidney disease, pulmonary embolism
+
+3. CK-MB:
+   - Older marker for heart damage (largely replaced by troponin)
+   - Can indicate heart attack or muscle damage
+
+IMPORTANT NOTES:
+- ECG is a snapshot — it shows the heart's electrical activity at that moment
+- A normal ECG does not rule out heart disease
+- Serial ECGs (repeated over time) can show changes
+- Always correlate ECG findings with symptoms and other tests
+- Chest pain with ECG changes is a medical emergency
