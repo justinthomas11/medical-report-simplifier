@@ -72,6 +72,9 @@ def generate_pdf_report(simplified_markdown: str) -> bytes:
         for orig, repl in replacements.items():
             text_to_render = text_to_render.replace(orig, repl)
             
+        # Strip emojis and other characters unsupported by default Latin-1 Helvetica
+        text_to_render = text_to_render.encode('latin-1', 'ignore').decode('latin-1')
+            
         lines = text_to_render.split("\n")
         
         for line in lines:
