@@ -168,6 +168,7 @@ if uploaded_file is not None:
     # Build a process button to start the analysis
     if st.button("Process & Simplify Report", type="primary"):
         st.session_state.analysis_complete = False
+        st.session_state.pop("_pipeline_error", None)
 
         with st.status("⚙️ Running analysis pipeline...", expanded=True) as status:
 
@@ -176,64 +177,68 @@ if uploaded_file is not None:
             val_result = validate_file(uploaded_file)
             if not val_result.is_valid:
                 status.update(label="❌ Validation failed", state="error", expanded=True)
-                st.error("\n".join(val_result.errors))
-                st.stop()
+                st.session_state["_pipeline_error"] = ("validation", "\n".join(val_result.errors))
+            else:
+                # 2. Extract Text
+                st.write("📄 Extracting text...")
+                start = time.time()
+                file_type = get_file_type(uploaded_file)
+                extracted_text = extract_text(uploaded_file, file_type)
+                st.session_state.original_text = extracted_text
+                st.session_state.elapsed_times["Extraction"] = time.time() - start
 
-            # 2. Extract Text
-            st.write("📄 Extracting text...")
-            start = time.time()
-            file_type = get_file_type(uploaded_file)
-            extracted_text = extract_text(uploaded_file, file_type)
-            st.session_state.original_text = extracted_text
-            st.session_state.elapsed_times["Extraction"] = time.time() - start
+                # 3. Preprocess Text
+                st.write("🔤 Running NLP preprocessing & token cleaning...")
+                start = time.time()
+                preprocessed = preprocess(extracted_text)
+                st.session_state.cleaned_text = preprocessed.cleaned_text
+                st.session_state.elapsed_times["Preprocessing"] = time.time() - start
 
-            # 3. Preprocess Text
-            st.write("🔤 Running NLP preprocessing & token cleaning...")
-            start = time.time()
-            preprocessed = preprocess(extracted_text)
-            st.session_state.cleaned_text = preprocessed.cleaned_text
-            st.session_state.elapsed_times["Preprocessing"] = time.time() - start
+                # 4. Medical NER
+                st.write("🏷️ Identifying medical terms & measurements (SciSpacy)...")
+                start = time.time()
+                entities = extract_medical_entities(extracted_text)
+                st.session_state.entities = entities
+                st.session_state.elapsed_times["NER"] = time.time() - start
 
-            # 4. Medical NER
-            st.write("🏷️ Identifying medical terms & measurements (SciSpacy)...")
-            start = time.time()
-            entities = extract_medical_entities(extracted_text)
-            st.session_state.entities = entities
-            st.session_state.elapsed_times["NER"] = time.time() - start
+                # 5. Multi-Model Retrieval comparison
+                st.write("🔍 Running retrieval models (TF-IDF · MiniLM · SBERT)...")
+                start = time.time()
+                query_terms = " ".join(entities.diseases + entities.tests_procedures)
+                if not query_terms.strip():
+                    query_terms = " ".join(extracted_text.split()[:20])
+                retrieval_comparison = compare_retrieval_models(query_terms)
+                st.session_state.retrieval_comparison = retrieval_comparison
+                st.session_state.elapsed_times["Retrieval"] = time.time() - start
 
-            # 5. Multi-Model Retrieval comparison
-            st.write("🔍 Running retrieval models (TF-IDF · MiniLM · SBERT)...")
-            start = time.time()
-            query_terms = " ".join(entities.diseases + entities.tests_procedures)
-            if not query_terms.strip():
-                query_terms = " ".join(extracted_text.split()[:20])
-            retrieval_comparison = compare_retrieval_models(query_terms)
-            st.session_state.retrieval_comparison = retrieval_comparison
-            st.session_state.elapsed_times["Retrieval"] = time.time() - start
+                # 6. Gemini Simplification
+                st.write("🤖 Querying Gemini to generate plain-language report...")
+                start = time.time()
+                context, _ = get_best_context(retrieval_comparison, preferred_retrieval_model)
+                clean_llm_input = get_clean_text_for_llm(st.session_state.original_text)
+                raw_simplification = simplify_report(clean_llm_input, context, entities.to_dict())
+                st.session_state.elapsed_times["LLM Simplification"] = time.time() - start
 
-            # 6. Gemini Simplification
-            st.write("🤖 Querying Gemini to generate plain-language report...")
-            start = time.time()
-            context, _ = get_best_context(retrieval_comparison, preferred_retrieval_model)
-            clean_llm_input = get_clean_text_for_llm(st.session_state.original_text)
-            raw_simplification = simplify_report(clean_llm_input, context, entities.to_dict())
-            st.session_state.elapsed_times["LLM Simplification"] = time.time() - start
+                if raw_simplification.startswith("ERROR:"):
+                    status.update(label="❌ Gemini API error — see below", state="error", expanded=False)
+                    st.session_state["_pipeline_error"] = ("gemini", raw_simplification[6:].strip())
+                else:
+                    formatted_output = format_simplified_report(raw_simplification, entities.to_dict())
+                    st.session_state.simplified_output = formatted_output
+                    st.session_state.analysis_complete = True
+                    status.update(label="🎉 Report processing complete!", state="complete", expanded=False)
 
-            # Detect error sentinel returned by simplification engine
-            if raw_simplification.startswith("ERROR:"):
-                status.update(label="❌ Gemini API error", state="error", expanded=True)
-                st.error(f"⚠️ Gemini API Error: {raw_simplification[6:].strip()}")
-                st.info("💡 This is usually a quota or rate-limit issue. Wait a minute and try again, or check your API key at https://aistudio.google.com/apikey")
-                st.stop()
+        # Show errors cleanly OUTSIDE the status block so the UI doesn't freeze
+        if "_pipeline_error" in st.session_state:
+            err_type, err_msg = st.session_state["_pipeline_error"]
+            if err_type == "gemini":
+                st.error(f"⚠️ **Gemini API Error:** {err_msg}")
+                st.info("💡 **Quota exhausted.** Your free-tier API key has hit its daily limit for all available models. Wait until your quota resets (usually midnight Pacific time) or get a paid API key at https://aistudio.google.com/apikey")
+            else:
+                st.error(err_msg)
+        elif st.session_state.analysis_complete:
+            st.rerun()
 
-            # Format and append reference glossary index
-            formatted_output = format_simplified_report(raw_simplification, entities.to_dict())
-            st.session_state.simplified_output = formatted_output
-
-            status.update(label="🎉 Report processing complete!", state="complete", expanded=False)
-
-        st.session_state.analysis_complete = True
-        st.rerun()
 
 
 else:
