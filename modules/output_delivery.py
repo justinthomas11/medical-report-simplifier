@@ -39,35 +39,29 @@ class SimplifiedReportPDF(FPDF):
         self.cell(0, 5, f'Page {self.page_no()}/{{nb}}', border=False, new_x="LMARGIN", new_y="NEXT", align='C')
 
 
-def _break_long_words(pdf: FPDF, text: str) -> str:
+def _safe_multi_cell(pdf: FPDF, h: float, text: str, **kwargs):
     """
-    Ensure no individual word/token is wider than the printable area.
+    Bulletproof wrapper around pdf.multi_cell().
 
-    fpdf2 with default WORD wrap raises 'Not enough horizontal space'
-    when a single token (no spaces) is wider than the available width.
-    This helper splits such tokens by inserting spaces so the layout
-    engine can always make progress.
+    Solves 'Not enough horizontal space to render a single character' by:
+    1. Always resetting pdf.x to l_margin before writing (cursor drift fix).
+    2. Using an explicit positive width instead of 0 (avoids zero-width trap).
+    3. Falling back to wrapmode='CHAR' if WORD wrap still fails.
+    4. As a last resort, truncating the line so the PDF is never broken.
     """
-    printable_w = pdf.w - pdf.l_margin - pdf.r_margin  # mm
-    words = text.split(" ")
-    safe_words = []
-    for word in words:
-        # Measure word width at current font size
-        word_w = pdf.get_string_width(word)
-        if word_w <= printable_w or len(word) <= 1:
-            safe_words.append(word)
-            continue
-        # Binary-split the word into chunks that fit
-        chunk = ""
-        for ch in word:
-            if pdf.get_string_width(chunk + ch) > printable_w:
-                safe_words.append(chunk)
-                chunk = ch
-            else:
-                chunk += ch
-        if chunk:
-            safe_words.append(chunk)
-    return " ".join(safe_words)
+    pdf.set_x(pdf.l_margin)
+    w = pdf.w - pdf.l_margin - pdf.r_margin
+    try:
+        pdf.multi_cell(w, h, text, **kwargs)
+    except Exception:
+        try:
+            pdf.set_x(pdf.l_margin)
+            pdf.multi_cell(w, h, text, wrapmode="CHAR", **kwargs)
+        except Exception:
+            # Absolute last resort: write a truncated single line
+            pdf.set_x(pdf.l_margin)
+            truncated = text[:120] + ("..." if len(text) > 120 else "")
+            pdf.cell(w, h, truncated, new_x="LMARGIN", new_y="NEXT")
 
 
 @log_execution_time
@@ -118,24 +112,21 @@ def generate_pdf_report(simplified_markdown: str) -> bytes:
             pdf.ln(3)
             pdf.set_font("helvetica", "B", 12)
             pdf.set_text_color(43, 108, 176) # Secondary blue
-            heading = _break_long_words(pdf, line.replace("###", "").strip())
-            pdf.multi_cell(0, 6, heading)
+            _safe_multi_cell(pdf, 6, line.replace("###", "").strip())
             pdf.set_font("helvetica", "", 10)
             pdf.set_text_color(45, 55, 72)
         elif line.startswith("##"):
             pdf.ln(4)
             pdf.set_font("helvetica", "B", 14)
             pdf.set_text_color(26, 54, 93) # Primary blue
-            heading = _break_long_words(pdf, line.replace("##", "").strip())
-            pdf.multi_cell(0, 8, heading)
+            _safe_multi_cell(pdf, 8, line.replace("##", "").strip())
             pdf.set_font("helvetica", "", 10)
             pdf.set_text_color(45, 55, 72)
         elif line.startswith("#"):
             pdf.ln(5)
             pdf.set_font("helvetica", "B", 16)
             pdf.set_text_color(26, 54, 93)
-            heading = _break_long_words(pdf, line.replace("#", "").strip())
-            pdf.multi_cell(0, 10, heading)
+            _safe_multi_cell(pdf, 10, line.replace("#", "").strip())
             pdf.set_font("helvetica", "", 10)
             pdf.set_text_color(45, 55, 72)
         else:
@@ -143,12 +134,12 @@ def generate_pdf_report(simplified_markdown: str) -> bytes:
             # Handle horizontal rules/separator lines elegantly
             if len(line) >= 3 and set(line) <= {'-', '_', '='}:
                 pdf.ln(2)
-                pdf.set_x(pdf.l_margin)  # Reset x before drawing line
-                pdf.line(10, pdf.get_y(), 200, pdf.get_y())
+                pdf.set_x(pdf.l_margin)
+                pdf.line(pdf.l_margin, pdf.get_y(), pdf.w - pdf.r_margin, pdf.get_y())
+                pdf.set_x(pdf.l_margin)
                 pdf.ln(2)
             else:
-                safe_line = _break_long_words(pdf, line)
-                pdf.multi_cell(0, 5, safe_line)
+                _safe_multi_cell(pdf, 5, line)
             
     # Return PDF as bytes
     pdf_output = pdf.output()
