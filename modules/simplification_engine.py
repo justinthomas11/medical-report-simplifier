@@ -58,9 +58,11 @@ Simplify the "ORIGINAL MEDICAL REPORT" using the "RETRIEVED MEDICAL GUIDELINES &
     return prompt
 
 
-def get_supported_model(preferred_model: str) -> str:
-    """Find a supported model name, falling back if the preferred one is not available."""
-    # Ordered list of models to try — newest/most capable first
+def _get_candidate_models(preferred_model: str):
+    """
+    Return an ordered list of model names to attempt, starting with the
+    preferred model, then known fallbacks.  Always yields at least one entry.
+    """
     _FALLBACK_ORDER = [
         preferred_model,
         "gemini-2.0-flash",
@@ -75,80 +77,77 @@ def get_supported_model(preferred_model: str) -> str:
         "gemini-pro",
     ]
     try:
-        available = [
+        available = {
             m.name.replace("models/", "")
             for m in genai.list_models()
             if 'generateContent' in m.supported_generation_methods
-        ]
-        logger.info(f"Available Gemini models: {available}")
-        
-        for candidate in _FALLBACK_ORDER:
-            if candidate in available:
-                if candidate != preferred_model:
-                    logger.info(f"Model '{preferred_model}' unavailable. Using: {candidate}")
-                return candidate
-                
-        # Last resort: first entry the API returned
-        if available:
-            logger.warning(f"No preferred fallback matched. Using first available: {available[0]}")
-            return available[0]
+        }
+        logger.info(f"Available Gemini models: {sorted(available)}")
+        # Yield candidates that exist in the API, preserving fallback order
+        seen = set()
+        for name in _FALLBACK_ORDER:
+            if name not in seen and name in available:
+                seen.add(name)
+                yield name
     except Exception as e:
-        logger.warning(f"Failed to list models: {str(e)}. Defaulting to {preferred_model}")
-    return preferred_model
+        logger.warning(f"Could not list models: {e}. Yielding preferred model only.")
+        yield preferred_model
 
 
 @log_execution_time
 def simplify_report(report_text: str, retrieved_context: str, extracted_entities: dict) -> str:
     """
     Send the report, retrieved context, and terms to Gemini for simplification.
-    
-    Args:
-        report_text: Raw extracted report text.
-        retrieved_context: Context string retrieved from KB.
-        extracted_entities: Categorized entity dictionary.
-        
+    Tries each available model in fallback order, skipping those that return
+    404 (not found) or 429 (quota exceeded) errors.
+
     Returns:
-        Plain-language simplified text.
+        Plain-language simplified text, or an error sentinel string prefixed
+        with 'ERROR:' so the caller can detect and surface it properly.
     """
     if not GEMINI_API_KEY:
         logger.error("Gemini API key is missing. Cannot proceed with simplification.")
-        return (
-            "Error: Gemini API key is missing. "
-            "Please add your GEMINI_API_KEY to the .env file in the root folder."
-        )
-        
-    try:
-        # Determine the best model to use
-        actual_model_name = get_supported_model(GEMINI_MODEL)
-        
-        # Build prompt
-        prompt = build_simplification_prompt(report_text, retrieved_context, extracted_entities)
-        
-        # Configure model parameters
-        generation_config = genai.types.GenerationConfig(
-            temperature=LLM_TEMPERATURE,
-            max_output_tokens=LLM_MAX_TOKENS,
-        )
-        
-        # Instantiate model
-        model = genai.GenerativeModel(
-            model_name=actual_model_name,
-            system_instruction=SYSTEM_PROMPT
-        )
-        
-        logger.info("Calling Gemini API for simplification...")
-        response = model.generate_content(
-            contents=prompt,
-            generation_config=generation_config
-        )
-        
-        if not response.text:
-            logger.warning("Gemini API returned an empty response.")
-            return "Unable to simplify report. The model returned an empty response."
-            
-        logger.info("Successfully received simplified output from Gemini.")
-        return response.text
-        
-    except Exception as e:
-        logger.error(f"Gemini simplification failed: {str(e)}")
-        return f"An error occurred while simplifying the report using Gemini: {str(e)}"
+        return "ERROR: Gemini API key is missing. Please add GEMINI_API_KEY to your .env file."
+
+    prompt = build_simplification_prompt(report_text, retrieved_context, extracted_entities)
+    generation_config = genai.types.GenerationConfig(
+        temperature=LLM_TEMPERATURE,
+        max_output_tokens=LLM_MAX_TOKENS,
+    )
+
+    last_error = "No models were available to try."
+    for model_name in _get_candidate_models(GEMINI_MODEL):
+        try:
+            logger.info(f"Trying model: {model_name}")
+            model = genai.GenerativeModel(
+                model_name=model_name,
+                system_instruction=SYSTEM_PROMPT
+            )
+            response = model.generate_content(
+                contents=prompt,
+                generation_config=generation_config
+            )
+            if not response.text:
+                logger.warning(f"Model {model_name} returned empty response.")
+                last_error = f"Model {model_name} returned an empty response."
+                continue
+
+            logger.info(f"Successfully received output from model: {model_name}")
+            return response.text
+
+        except Exception as e:
+            err_str = str(e)
+            if "429" in err_str or "quota" in err_str.lower() or "rate" in err_str.lower():
+                logger.warning(f"Model {model_name} quota/rate-limit exceeded. Trying next fallback.")
+                last_error = f"Model {model_name} quota exceeded."
+            elif "404" in err_str or "not found" in err_str.lower() or "no longer available" in err_str.lower():
+                logger.warning(f"Model {model_name} not found/deprecated. Trying next fallback.")
+                last_error = f"Model {model_name} is not available."
+            else:
+                # Unexpected error — don't retry, surface immediately
+                logger.error(f"Unexpected error with model {model_name}: {err_str}")
+                return f"ERROR: {err_str}"
+
+    logger.error(f"All Gemini models exhausted. Last error: {last_error}")
+    return f"ERROR: All available Gemini models are currently rate-limited or unavailable. {last_error}"
+

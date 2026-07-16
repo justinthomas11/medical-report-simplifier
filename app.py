@@ -212,22 +212,29 @@ if uploaded_file is not None:
             st.session_state.elapsed_times["Retrieval"] = time.time() - start
             
         # 6. Gemini Simplification
-        with st.spinner("Querying Gemini 1.5 Flash to generate plain-language report..."):
+        with st.spinner("Querying Gemini API to generate plain-language report..."):
             start = time.time()
             # Select the best context using chosen model
             context, _ = get_best_context(retrieval_comparison, preferred_retrieval_model)
             
             clean_llm_input = get_clean_text_for_llm(st.session_state.original_text)
             raw_simplification = simplify_report(clean_llm_input, context, entities.to_dict())
+            st.session_state.elapsed_times["LLM Simplification"] = time.time() - start
+            
+            # Detect error sentinel returned by simplification engine
+            if raw_simplification.startswith("ERROR:"):
+                st.error(f"⚠️ Gemini API Error: {raw_simplification[6:].strip()}")
+                st.info("💡 This is usually a quota or rate-limit issue. Wait a minute and try again, or check your API key at https://aistudio.google.com/apikey")
+                st.stop()
             
             # Format and append reference glossary index
             formatted_output = format_simplified_report(raw_simplification, entities.to_dict())
             st.session_state.simplified_output = formatted_output
-            st.session_state.elapsed_times["LLM Simplification"] = time.time() - start
             
         st.session_state.analysis_complete = True
         st.success("🎉 Report processing complete!")
         st.rerun()
+
 
 else:
     # Clear state when file is removed
