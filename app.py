@@ -245,11 +245,10 @@ else:
 # DISPLAY TABS
 # ============================================================
 if st.session_state.analysis_complete:
-    tab1, tab2, tab3, tab4 = st.tabs([
+    tab1, tab2, tab3 = st.tabs([
         "📄 Simplified Report", 
         "🔍 Medical NER Explorer", 
-        "📊 RAG Model Comparison", 
-        "📈 System Feedback"
+        "📊 RAG Model Comparison"
     ])
     
     # --------------------------------------------------------
@@ -268,7 +267,7 @@ if st.session_state.analysis_complete:
         )
         
         # Render markdown content
-        st.markdown(f'<div class="report-card">{st.session_state.simplified_output}</div>', unsafe_allow_html=True)
+        st.markdown(st.session_state.simplified_output)
         
         # Display performance times
         with st.expander("⏱️ Pipeline Performance Details"):
@@ -352,34 +351,3 @@ if st.session_state.analysis_complete:
                 else:
                     st.write("No matching documents found.")
 
-    # --------------------------------------------------------
-    # TAB 4: SYSTEM FEEDBACK
-    # --------------------------------------------------------
-    with tab4:
-        st.markdown("### Help Us Improve")
-        st.write("Rate this translation to help improve the prompt instructions and LLM accuracy.")
-        
-        # Feedback Form
-        with st.form("feedback_form"):
-            rating = st.slider("Rating (1 = Poor, 5 = Excellent)", min_value=1, max_value=5, value=5)
-            comments = st.text_area("What was helpful? What could be improved?", max_chars=500)
-            submit = st.form_submit_button("Submit Feedback")
-            
-            if submit:
-                save_user_feedback(
-                    uploaded_file.name, 
-                    rating, 
-                    comments, 
-                    f"Gemini (context: {preferred_retrieval_model})"
-                )
-                st.success("Thank you for your feedback!")
-                
-        # Aggregate statistics display
-        st.divider()
-        st.markdown("#### Global System Feedback Statistics")
-        stats = get_feedback_statistics()
-        
-        col_s1, col_s2, col_s3 = st.columns(3)
-        col_s1.metric("Total Submissions", stats["Total Submissions"])
-        col_s2.metric("Average Rating Score", f"{stats['Average Rating']} / 5")
-        col_s3.metric("Comments Received", stats["Comments Count"])
