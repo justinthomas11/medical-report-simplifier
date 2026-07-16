@@ -150,6 +150,7 @@ def simplify_report(report_text: str, retrieved_context: str, extracted_entities
                 continue
 
             logger.info(f"Successfully received output from model: {model_name}")
+            logger.info(f"Raw generated text:\n{response.text}")
             return response.text
 
         except Exception as e:
