@@ -60,26 +60,38 @@ Simplify the "ORIGINAL MEDICAL REPORT" using the "RETRIEVED MEDICAL GUIDELINES &
 
 def get_supported_model(preferred_model: str) -> str:
     """Find a supported model name, falling back if the preferred one is not available."""
+    # Ordered list of models to try — newest/most capable first
+    _FALLBACK_ORDER = [
+        preferred_model,
+        "gemini-2.0-flash",
+        "gemini-2.0-flash-lite",
+        "gemini-2.0-flash-exp",
+        "gemini-1.5-flash-latest",
+        "gemini-1.5-flash-002",
+        "gemini-1.5-flash-001",
+        "gemini-1.5-flash",
+        "gemini-1.5-pro-latest",
+        "gemini-1.5-pro",
+        "gemini-pro",
+    ]
     try:
-        models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
-        pref_full = f"models/{preferred_model}" if not preferred_model.startswith("models/") else preferred_model
-        if pref_full in models:
-            return preferred_model
+        available = [
+            m.name.replace("models/", "")
+            for m in genai.list_models()
+            if 'generateContent' in m.supported_generation_methods
+        ]
+        logger.info(f"Available Gemini models: {available}")
         
-        # Strip models/ prefix to compare
-        model_names = [m.replace("models/", "") for m in models]
-        
-        # Check standard models in order of preference
-        fallbacks = [preferred_model, "gemini-1.5-flash", "gemini-1.5-flash-latest", "gemini-1.5-pro", "gemini-pro"]
-        for fb in fallbacks:
-            if fb in model_names:
-                logger.info(f"Using fallback model: {fb}")
-                return fb
+        for candidate in _FALLBACK_ORDER:
+            if candidate in available:
+                if candidate != preferred_model:
+                    logger.info(f"Model '{preferred_model}' unavailable. Using: {candidate}")
+                return candidate
                 
-        # If none of fallbacks are in list, return first available or default to preferred
-        if model_names:
-            logger.info(f"Model {preferred_model} not found. Using first available: {model_names[0]}")
-            return model_names[0]
+        # Last resort: first entry the API returned
+        if available:
+            logger.warning(f"No preferred fallback matched. Using first available: {available[0]}")
+            return available[0]
     except Exception as e:
         logger.warning(f"Failed to list models: {str(e)}. Defaulting to {preferred_model}")
     return preferred_model
