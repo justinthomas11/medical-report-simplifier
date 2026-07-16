@@ -57,6 +57,15 @@ def _get_or_load_model(model_name: str) -> SentenceTransformer:
     return _MODELS_CACHE[model_name]
 
 
+class RobustUnpickler(pickle.Unpickler):
+    """Custom unpickler to gracefully handle ChunkedText serialized under __main__."""
+    def find_class(self, module, name):
+        if name == 'ChunkedText' and module == '__main__':
+            from modules.document_indexer import ChunkedText
+            return ChunkedText
+        return super().find_class(module, name)
+
+
 def load_tfidf_resources() -> Tuple[Any, Any, List[ChunkedText]]:
     """Load pre-saved TF-IDF files."""
     vectorizer_path = VECTOR_STORE_DIR / "tfidf_vectorizer.pkl"
@@ -71,7 +80,7 @@ def load_tfidf_resources() -> Tuple[Any, Any, List[ChunkedText]]:
     with open(matrix_path, "rb") as f:
         tfidf_matrix = pickle.load(f)
     with open(chunks_path, "rb") as f:
-        chunks = pickle.load(f)
+        chunks = RobustUnpickler(f).load()
         
     return vectorizer, tfidf_matrix, chunks
 
@@ -86,7 +95,7 @@ def load_faiss_resources(suffix: str) -> Tuple[faiss.IndexFlatIP, List[ChunkedTe
         
     index = faiss.read_index(str(index_path))
     with open(chunks_path, "rb") as f:
-        chunks = pickle.load(f)
+        chunks = RobustUnpickler(f).load()
         
     return index, chunks
 

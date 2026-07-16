@@ -113,7 +113,7 @@ def generate_pdf_report(simplified_markdown: str) -> bytes:
                     pdf.line(10, pdf.get_y(), 200, pdf.get_y())
                     pdf.ln(2)
                 else:
-                    pdf.multi_cell(0, 5, line, wrapmode="CHAR")
+                    pdf.multi_cell(0, 5, line)
                 
         # Return PDF as bytes
         pdf_output = pdf.output()

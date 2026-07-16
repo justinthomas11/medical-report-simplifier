@@ -58,6 +58,33 @@ Simplify the "ORIGINAL MEDICAL REPORT" using the "RETRIEVED MEDICAL GUIDELINES &
     return prompt
 
 
+def get_supported_model(preferred_model: str) -> str:
+    """Find a supported model name, falling back if the preferred one is not available."""
+    try:
+        models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
+        pref_full = f"models/{preferred_model}" if not preferred_model.startswith("models/") else preferred_model
+        if pref_full in models:
+            return preferred_model
+        
+        # Strip models/ prefix to compare
+        model_names = [m.replace("models/", "") for m in models]
+        
+        # Check standard models in order of preference
+        fallbacks = [preferred_model, "gemini-1.5-flash", "gemini-1.5-flash-latest", "gemini-1.5-pro", "gemini-pro"]
+        for fb in fallbacks:
+            if fb in model_names:
+                logger.info(f"Using fallback model: {fb}")
+                return fb
+                
+        # If none of fallbacks are in list, return first available or default to preferred
+        if model_names:
+            logger.info(f"Model {preferred_model} not found. Using first available: {model_names[0]}")
+            return model_names[0]
+    except Exception as e:
+        logger.warning(f"Failed to list models: {str(e)}. Defaulting to {preferred_model}")
+    return preferred_model
+
+
 @log_execution_time
 def simplify_report(report_text: str, retrieved_context: str, extracted_entities: dict) -> str:
     """
@@ -79,6 +106,9 @@ def simplify_report(report_text: str, retrieved_context: str, extracted_entities
         )
         
     try:
+        # Determine the best model to use
+        actual_model_name = get_supported_model(GEMINI_MODEL)
+        
         # Build prompt
         prompt = build_simplification_prompt(report_text, retrieved_context, extracted_entities)
         
@@ -90,7 +120,7 @@ def simplify_report(report_text: str, retrieved_context: str, extracted_entities
         
         # Instantiate model
         model = genai.GenerativeModel(
-            model_name=GEMINI_MODEL,
+            model_name=actual_model_name,
             system_instruction=SYSTEM_PROMPT
         )
         

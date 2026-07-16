@@ -36,6 +36,10 @@ class ChunkedText:
         self.title = source_doc.title
         self.chunk_index = chunk_index
 
+# Explicitly override the module namespace for pickle serialization
+ChunkedText.__module__ = "modules.document_indexer"
+
+
 
 def smart_chunk(documents: List[ReferenceDocument]) -> List[ChunkedText]:
     """
@@ -164,3 +168,8 @@ def initialize_indices():
     build_faiss_index(chunks, SBERT_MODEL, "sbert")
     
     logger.info("All indices successfully generated.")
+
+
+if __name__ == "__main__":
+    initialize_indices()
+
