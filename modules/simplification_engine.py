@@ -1,24 +1,30 @@
 """
 Module 9 — LLM Simplification Engine
 
-Integrates with the Google Gemini API (gemini-1.5-flash) to simplify 
+Integrates with the Google Gemini API to simplify 
 medical reports using retrieved context and extracted NER terms.
 """
 
+import os
 import google.generativeai as genai
+from dotenv import load_dotenv
 from config.settings import (
-    GEMINI_API_KEY, GEMINI_MODEL, LLM_TEMPERATURE, 
+    GEMINI_MODEL, LLM_TEMPERATURE, 
     LLM_MAX_TOKENS, SYSTEM_PROMPT
 )
 from modules.logger import get_logger, log_execution_time
 
 logger = get_logger(__name__)
 
-# Configure the Gemini API client
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
-else:
-    logger.warning("GEMINI_API_KEY is not set in configuration settings.")
+
+def _configure_genai():
+    """Re-read .env and configure the Gemini client with the latest API key."""
+    load_dotenv(override=True)
+    api_key = os.getenv("GEMINI_API_KEY", "")
+    if not api_key:
+        return None
+    genai.configure(api_key=api_key)
+    return api_key
 
 
 def build_simplification_prompt(report_text: str, retrieved_context: str, extracted_entities: dict) -> str:
@@ -67,12 +73,17 @@ def _get_candidate_models(preferred_model: str):
         preferred_model,
         "gemini-2.0-flash",
         "gemini-2.0-flash-lite",
-        "gemini-2.0-flash-exp",
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
+        "gemini-3.5-flash",
+        "gemini-3.1-flash-lite",
+        "gemini-3-flash-preview",
+        "gemini-flash-latest",
+        "gemini-flash-lite-latest",
+        "gemini-2.5-pro",
+        "gemini-pro-latest",
         "gemini-1.5-flash-latest",
-        "gemini-1.5-flash-002",
-        "gemini-1.5-flash-001",
         "gemini-1.5-flash",
-        "gemini-1.5-pro-latest",
         "gemini-1.5-pro",
         "gemini-pro",
     ]
@@ -87,6 +98,11 @@ def _get_candidate_models(preferred_model: str):
         seen = set()
         for name in _FALLBACK_ORDER:
             if name not in seen and name in available:
+                seen.add(name)
+                yield name
+        # Also yield any available model not in our list as last resort
+        for name in sorted(available):
+            if name not in seen and "gemini" in name and "tts" not in name and "image" not in name and "robotics" not in name:
                 seen.add(name)
                 yield name
     except Exception as e:
@@ -105,7 +121,8 @@ def simplify_report(report_text: str, retrieved_context: str, extracted_entities
         Plain-language simplified text, or an error sentinel string prefixed
         with 'ERROR:' so the caller can detect and surface it properly.
     """
-    if not GEMINI_API_KEY:
+    api_key = _configure_genai()
+    if not api_key:
         logger.error("Gemini API key is missing. Cannot proceed with simplification.")
         return "ERROR: Gemini API key is missing. Please add GEMINI_API_KEY to your .env file."
 
@@ -143,6 +160,9 @@ def simplify_report(report_text: str, retrieved_context: str, extracted_entities
             elif "404" in err_str or "not found" in err_str.lower() or "no longer available" in err_str.lower():
                 logger.warning(f"Model {model_name} not found/deprecated. Trying next fallback.")
                 last_error = f"Model {model_name} is not available."
+            elif "401" in err_str or "authentication" in err_str.lower() or "invalid" in err_str.lower():
+                logger.error(f"Authentication failed: {err_str}")
+                return "ERROR: Invalid API key. Please get a valid key from https://aistudio.google.com/apikey (it should start with 'AIzaSy...')"
             else:
                 # Unexpected error — don't retry, surface immediately
                 logger.error(f"Unexpected error with model {model_name}: {err_str}")
@@ -150,4 +170,5 @@ def simplify_report(report_text: str, retrieved_context: str, extracted_entities
 
     logger.error(f"All Gemini models exhausted. Last error: {last_error}")
     return f"ERROR: All available Gemini models are currently rate-limited or unavailable. {last_error}"
+
 
